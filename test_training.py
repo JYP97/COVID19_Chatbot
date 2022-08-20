@@ -20,7 +20,7 @@ with open("dataset/dialogs.json") as file:
     dialogs = json.load(file)
 
 try:
-    with open("dataset/data.pickle", "rb") as f:
+    with open("data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
     words = []
