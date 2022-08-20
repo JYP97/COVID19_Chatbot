@@ -13,7 +13,10 @@
           "What steps should parents take to protect children?",
           "How can my family and I prepare for COVID-19?",
           "What steps can my family take to reduce our risk of getting COVID-19?",
-          "How can I keep my family healthy?"
+          "How can I keep my family healthy?",
+        "What can I do to protect myself and prevent the spread of disease?",
+        "How can I protect myself from the spread of disease?",
+        "how can I avoid infection of COVID-19?"
       ],
       "response": [
         "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, but plz also wear musk when you out.",
@@ -145,6 +148,7 @@
       "patterns": [
         "How the new coronavirus spreads?",
         "How does the virus spread?",
+        "How does COVID-19 spread?",
         "Am I at risk for COVID-19 from a package or products?",
         "Can mosquitoes or ticks spread the virus that causes COVID-19?",
          "Can someone who has had COVID-19 spread the illness to others?",
@@ -212,7 +216,8 @@
         "patterns": [
           "What is coronavirus?",
           "What is the source of the virus?",
-          "Why is the disease being called COVID-19?"
+          "Why is the disease being called COVID-19?",
+          "What is COVID-19?"
         ],
         "response": [
           "A novel coronavirus is a new coronavirus. The virus-causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illnesses, like the common cold.",
@@ -241,6 +246,205 @@
           "The number of cases of COVID-19 being reported in the United States is rising due to increased laboratory testing and reporting across the country. ",
           "Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late."
         ]
-      }
+      },
+    {
+      "tag": "outbreak",
+      "patterns": [
+        "What should I do if there is an outbreak in my community?",
+        "Should I go to work if there is an outbreak in my community?",
+        "How can i do if there is an outbreak in my cummunity?",
+        "How to deal with outbreak of covid-19?"
+      ],
+      "response": [
+        "During an outbreak, stay calm and put your preparedness plan to work.",
+        "Follow the advice of your local health officials. Stay home if you can. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak.",
+        "Depending on the situation, you can consult the local authorities to get some advice to handle outbreak."
+      ]
+    },
+        {
+      "tag": "lockdown",
+      "patterns": [
+        "Will there be a “stay at home” or “shelter in place” order in my community if we are in 'lockdown' situation?"
+      ],
+      "response": [
+        "CDC makes recommendations, shares information, and provides guidance to help slow down the spread of COVID-19. These local authorities are responsible for making decisions including “stay at home” or “shelter in place.” "
+      ]
+    },
+     {
+      "tag": "covid-test",
+      "patterns": [
+        "How can I get tested for COVID-19?",
+        "What should I do if I want to take a test for COVID-19?"
+      ],
+      "response": [
+        "The process and locations for testing vary from place to place. Contact your state, local, tribal, or territorial department for more information, or reach out to a medical provider.",
+        "Go the the local test centrals for covid-19 or you can buy the self-test sets."
+      ]
+    },
+        {
+      "tag": "CDC",
+      "patterns": [
+        "What should healthcare professionals and health departments such as CDC do?",
+        "What is CDC doing about COVID-19?"
+      ],
+      "response": [
+        "For recommendations and guidance on persons under investigation",
+        "Infection control, including personal protective equipment guidance",
+        "Home care and isolation, and case investigation.",
+        "CDC is working with other federal partners in a whole-of-government response.",
+        "CDC works 24/7 to protect people’s health."
+      ]
+    },
+        {
+      "tag": "contact with pets and animals",
+      "patterns": [
+        "Should I avoid contact with pets or other animals if I am sick with COVID-19?",
+        "Can I get COVID-19 from my pets or other animals?"
+      ],
+      "response": [
+        "You should restrict contact with pets and other animals while you are sick with COVID-19.",
+        "It is recommended that people sick with COVID-19 limit contact with animals until more information is known about the new coronavirus.",
+        "If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food.", 
+        "At this time, there is no evidence that the virus that causes COVID-19 can spread to people from the skin or fur of pets."
+      ]
+    },
+        {
+      "tag": "necessity of covid-test",
+      "patterns": [
+        "Should I be tested for COVID-19?",
+        "Why should people take a test for covid-19?"
+      ],
+      "response": [
+        "Not everyone needs to be tested for COVID-19."
+      ]
+    },
+        {
+      "tag": "people with high risk for serioius illness",
+      "patterns": [
+        "Who is at higher risk for serious illness from COVID-19?",
+        "Who are most possible to suffer from serious illness from COVID-19?",
+        "Who is at risk of developing severe illness?"
+      ],
+      "response": [
+        "Based on currently available information and clinical expertise, older adults and people of any age who have serious underlying medical conditions might be at higher risk for severe illness from COVID-19.",
+        "Based on what we know now, those at high-risk for severe illness from COVID-19 are: People aged 65 years and older",
+        "People who live in a nursing home or long-term care facility.",
+        "People of all ages with underlying medical conditions, particularly if not well controlled.",
+        "People with chronic lung disease or moderate to severe asthma.",
+        "People who have serious heart conditions.", 
+        "People who are immunocompromised.",
+        "People with severe obesity.",
+        "People with diabetes.",
+        "People with chronic kidney disease undergoing dialysis.",
+        "People with liver disease.",
+        "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions appear to develop serious illness more often than others."
+      ]
+    },
+       {
+      "tag": "symptoms of COVID-19",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "What are the symptoms and complications that COVID-19 can cause?"
+      ],
+      "response": [
+        "The most common symptoms of COVID-19 are fever, tiredness, and dry cough.", 
+        "Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.",
+        "Some people become infected but don’t develop any symptoms and don't feel unwell.",
+        "Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever1, cough, and difficulty breathing."
+      ]
+    },
+        {
+      "tag": "import of animals",
+      "patterns": [
+        "What about imported animals or animal products?",
+        "Can I travel with dogs or import dogs during the COVID-19 outbreak?"
+      ],
+      "response": [
+        "Please refer to CDC’s requirements for bringing animals. The current requirements for rabies vaccination apply to animals imported from a high-risk country for rabies."
+      ]
+    },
+    {
+      "tag": "risk of infection contacting with dead people",
+      "patterns": [
+        "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?",
+        "Am I at risk if I touch someone who died of COVID-19 after they have passed away?"
+      ],
+      "response": [
+        "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19.",
+        "COVID-19 is a new disease and we are still learning how it spreads. The virus that causes COVID-19 is thought to mainly spread from close contact (i.e., within about 6 feet) with a person who is currently sick with COVID-19. This type of spread is not a concern after death."
+      ]
+    },
+    {"tag":"isolation treatments",
+  "patterns":["Is there a model for setting up an isolation ward and types and products and health requirements?"],
+  "response":["A model for setting up an isolation ward is currently under development."]},
+     {"tag": "Chlorine", 
+    "patterns": ["Can chlorine solutions be used?"], 
+    "response": ["Chlorine solutions are strongly discouraged as they carry a higher risk of hand irritation and ill health effects from making and diluting chlorine solutions, including eye irritation and respiratory problems.", "No, there is a risk of loss of antimicrobial effect if exposed to sunlight or heat."]}, 
+    {"tag":"anti-epidemic measures",
+    "patterns":["Can antiretrovirals be used to treat COVID-19?", "Can antiretrovirals be used to prevent COVID-19 infection?"],
+    "response":[ "While the evidence of benefit of using antiretrovirals to treat coronavirus infections is of very low certainty, serious side effects were rare.", "Two studies have reported positive results of the use of LPV as post-exposure prophylaxis for SARS-CoV and MERS-CoV. However, the certainty of the evidence is very low due to small sample size, variability in drugs provided, and uncertainty regarding intensity of exposure."]},
+      {"tag": "plan", 
+    "patterns": ["What studies on treatment and prevention of COVID-19 with antiretrovirals are being planned?"], 
+    "response": ["Several randomized trials are planned to assess the safety and efficacy of using antiretroviral drugs for treating COVID-19, in combination with other drugs."]},
+    {"tag":"physical health",
+    "patterns":["What is physical activity?", "Why do we need physical activity?", "How much physical activity is recommended?", "So how do I stay safe while exercising in COVID-19?", "How do I stay active in and around the home?"],
+    "response":["Physical activity includes all forms of activerecreation, sports participation, cycling and walking, as well as activities you do at work and around the home and garden.", "Regular physical activity benefits both the body and mind. It can reduce high blood pressure, help manage weight and reduce the riskof heart disease, stroke, type 2 diabetes, and various cancers.", "It improves bone and muscle strength and increases balance, flexibility andfitness.", "For older people, activities that improve balance help to preventfalls and injuries.", "For children, regular physical activity helps supporthealthy growth and development and reduce the risk of disease in later life, and through regular activity, children can develop fundamental movement skills and build social relationships.", "Regular physical activity improves mental health and can reduce the risk of depression, cognitive decline and delay the onset of dementia - and improve overall feelings of wellbeing."]},  
+     {"tag": "physical health recommendation", 
+    "patterns": ["How much physical activity is recommended?", "How do I stay safe while exercising in COVID-19?", "How do I stay active in and around the home?"], 
+    "response": ["Infants under the age of 1 year need to be physically active several times a day.", "Children under 5 years of age should spend at least 180 minutes a day in physical activities, with 3-4 year-olds being moderately or vigorously active for an hour a day.", "Children and adolescents aged 5-17 years all children and adolescents should do at least 60 minutes a day of moderate to vigorous-intensity physical activity, including activities that strengthen muscle and bone, at least 3 days per week.", "Adults aged over 18 years should do a total of at least 150 minutes of moderate-intensity physical activity throughout the week, or at least 75 minutes of vigorous-intensity physical activity throughout the week, including muscle-strengthening activities 2 or more days perweek.", "Older adults with poor mobility should do physical activity to enhance balance and prevent falls on 3 or more days per week.", "Do not exercise if you have a fever, cough and difficulty breathing. Stay home and rest, seek medical attention and call in advance."]},
+     {"tag": "malaria report", 
+    "patterns": ["How many malaria-affected countries have reported cases of COVID-19?"], 
+    "response": ["Malaria-endemic countries in all WHO regions have reported cases of COVID-19."]},
+  {"tag": "malaria interventions", 
+    "patterns": ["Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?", "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?", "Should WHO-recommended preventive therapies be maintained in sub-Saharan Africa?"], 
+    "response": ["WHO strongly encourages countries not to suspend the planning for or implementation of vector control activities, including ITN and IRS campaigns, while ensuring these services are delivered using best practices to protect health workers and communities from COVID-19 infection.", "Modifications of planned distribution strategies may be needed to minimize exposure to the coronavirus.", "Yes, delivery of intermittent preventive treatment in pregnancy (IPTp), seasonal malaria chemoprevention (SMC), and intermittent preventive treatment in infants (IPTi) should be maintained provided that best practices for protecting health workers and other front-line workers from COVID-19 are followed."]},
+     {"tag": "WHO guidance", 
+    "patterns": ["Are there any changes to WHO guidance with respect to malaria diagnosis and treatment?"], 
+    "response": ["WHO guidance remains the same.", "Early diagnosis and treatment are critical to prevent a mild case of malaria from progressing to severe illness or death. Countries should not scale back efforts to detect and treat malaria; doing so would seriously undermine the health and well-being of millions of people infected with a potentially life-threatening disease."]},
+    {"tag": "measures", 
+    "patterns": ["What additional special measures may be needed in the context of COVID-19?"], 
+    "response": ["In addition to routine approaches to malaria control, there may be a case for special measures in the context of the COVID-19 pandemic such as a temporary return to presumptive malaria treatment.", "The use of mass drug administration which have proved useful in some previous emergencies."]},
+    {"tag": "spread", 
+    "patterns": ["Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?"], 
+    "response": ["Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria.", "The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.", "In recent weeks, the COVID-19 pandemic has tested the resilience of robust health systems around the world.", "Coordinated action is required to ensure the availability of key malaria control tools, particularly in countries with a high burden of the disease, and that efforts to limit the spread of COVID-19 do not compromise access to malaria prevention, diagnosis and treatment services."]},
+    {"tag": "consideration", 
+    "patterns": ["What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?"], 
+    "response": ["Efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services.", "Countries that are nearing malaria elimination must protect their important gains and avoid malaria resurgences.", "Countries that have eliminated malaria must remain vigilant for any imported cases of malaria that may be occurring to prevent reintroduction of the disease."]},
+    {"tag": "support", 
+    "patterns": ["What is WHO doing to support malaria-affected countries in the context of COVID-19?"], 
+    "response": ["WHO is working across the 3 levels of the Organization (country, region and headquarters) to ensure that any advice intended to prevent the spread of the coronavirus and to guide COVID-19 disease management is appropriate in malaria-affected settings.", "Together with partners, WHO has identified a set of inter-related actions that are needed to mitigate the impact of COVID-19 in countries where malaria strikes hardest."]},
+    {"tag":"WHO position",
+    "patterns":[ "What is WHO's position on the use of chloroquine and hydroxychloroquine, antiretrovirals or corticosteroids in the context of the COVID-19 response?"],
+    "response":[ "WHO is actively following the ongoing clinical trials that are being conducted in response to COVID-19, including studies looking at the use of chloroquine and its derivative, hydroxychloroquine, for treatment and\/or prevention.", "Currently, there is insufficient data to assess the effectiveness of this for treating COVID-19.", "WHO has designed a set of procedures to assess the performance, quality and safety of medical technologies during emergency situations.", "The current interim guidance from WHO on clinical management of severe acute respiratory infection when COVID-19 infection is suspected advises against the use of corticosteroids unless indicated for another reason."]},
+    {"tag":"antiretrovirals",
+    "patterns":[ "If countries use antiretrovirals for COVID-19, are there concerns about treatment shortages for people living with HIV?"],
+    "response":[ "Any country that allows the use of HIV medicines for the treatment of COVID-19 must ensure that an adequate and sustainable supply is in place."]},
+  {"tag":"pregnant",
+    "patterns":["Can pregnant or postpartum women living with HIV transmit the COVID-19 virus to their unborn child or infant?"],
+    "response":["There are few data on the clinical presentation of COVID-19 in specific populations, such as children and pregnant women but findings from a small published study suggest that there is currently no evidence for intrauterine infection caused by vertical transmission in women who develop COVID-19 pneumonia in late pregnancy."]},
+  {"tag":"pregnant women treatment",
+    "patterns":["Should pregnant and breastfeeding women living with HIV with COVID-19 and their newborns be managed differently?", "Are pregnant women at higher risk from COVID-19?", "How can pregnant women protect themselves against COVID-19?", "Can COVID-19 be passed from a woman to her unborn or newborn baby?", "Can COVID-19 be passed from a woman to her unborn or newborn baby?", "Should pregnant women be tested for COVID-19?"],
+    "response":["WHO recommendations are that pregnant women with symptoms of COVID-19 should be prioritized for testing.", "No difference is known for pregnant women for now","There is currently no known difference between the clinical manifestations of COVID-19 or risk of severe illness or foetal compromise for pregnant and non-pregnant women or adults of reproductive age.", "Research is currently underway to understand the impacts of COVID 19 infection on pregnant women.", "Pregnant women should take the same precautions to avoid COVID-19 infection as other people.", "It is still unknown if a pregnant woman with COVID-19 can pass the virus to her foetus or baby during pregnancy or delivery."]},
+    {"tag":"smoker",
+    "patterns":["Are smokers and tobacco users at higher risk of COVID-19 infection?"],
+    "response":["Smoking products such as water pipes often involve the sharing of mouth pieces and hoses, which could facilitate the transmission of COVID-19 in communal and social settings.", "Conditions that increase oxygen needs or reduce the ability of the body to use it properly will put patients at higher risk of serious lung conditions such as pneumonia."]},
+  {"tag":"pregnangt women care",
+    "patterns":["What care should be available during pregnancy and childbirth?"],
+    "response":["This includes antenatal, newborn, postnatal, intrapartum and mental health care."]},
+  {"tag":"birth",
+    "patterns":["Do pregnant women with suspected or confirmed COVID-19 need to give birth by caesarean section?"],
+    "response":["No. WHO advice is that caesarean sections should only be performed when medically justified."]},
+  {"tag":"breastfeeding",
+    "patterns":["Can women with COVID-19 breastfeed?", "Can I touch, hold and breastfeed my newborn baby if I have COVID-19?"],
+    "response":["Yes. Women with COVID-19 can breastfeed if they wish to do so.", "Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive."]},
+     {"tag": "HIV", 
+    "patterns": ["Are people living with HIV at increased risk of being infected with the virus that causes COVID-19?"], 
+    "response": ["At present there is no evidence that the risk of infection or complications of COVID-19 is different among people living with HIV who are clinically and immunologically stable on antiretroviral treatment when compared with the general population."]}, 
+  {"tag": "social aspects",
+    "patterns": ["How do we ensure human rights and reduce stigma and discrimination?"], 
+    "response": ["WHO is working with partners including the UNAIDS Joint Programme and the Global Network of People Living with HIV to ensure that human rights are not eroded in the response to COVID-19 and to ensure that people living with or affected by HIV are offered the same access to services as others and to ensure HIV-related services continue without disruption."]}, 
+    {"tag": "influenza viruses", 
+    "patterns": ["How are COVID-19 and influenza viruses similar?", "How are COVID-19 and influenza viruses different?", "What medical interventions are available for COVID-19 and influenza viruses?"], 
+    "response": ["Firstly, COVID-19 and influenza viruses have a similar disease presentation. That is, they both cause respiratory disease, which presents as a wide range of illness from asymptomatic or mild through to severe disease and death.Secondly, both viruses are transmitted by contact, droplets and fomites.", "The speed of transmission is an important point of difference between the two viruses. Influenza has a shorter median incubation period (the time from infection to appearance of symptoms) and a shorter serial interval (the time between successive cases) than COVID-19 virus.", "While there are a number of therapeutics currently in clinical trials in China and more than 20 vaccines in development for COVID-19, there are currently no licensed vaccines or therapeutics for COVID-19. \u00a0In contrast, antivirals and vaccines available for influenza. While the influenza vaccine is not effective against COVID-19 virus, it is highly recommended to get vaccinated each year to prevent influenza infection."]}
   ]
 }
