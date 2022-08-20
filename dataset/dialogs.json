@@ -5,6 +5,6 @@
   },
   {"tag": "goodbye",
     "patterns": ["cya", "See you later", "Goodbye", "Hava a good day", "Bye", "Ciao"],
-    "response": ["Sad to see you go :(", "Talk to  you later", "Goodbye!"]
+    "response": ["Sad to see you go :(", "Talk to  you later", "Goodbye!", "Bye"]
   }
 ]}

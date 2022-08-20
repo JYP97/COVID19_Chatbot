@@ -9,9 +9,6 @@ import tensorflow as tf
 import random
 import pickle
 import json
-import csv
-
-# csv_reader = csv.reader(open("multilingual.csv"))
 
 
 with open("dataset/dialogs.json") as file:
