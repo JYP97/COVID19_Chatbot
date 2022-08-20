@@ -4,7 +4,7 @@
     "response": ["Hello!", "Good to see you", "Hi there, how can I help you?", "I'm good, and you?"]
   },
   {"tag": "goodbye",
-    "patterns": ["cya", "See you later", "Goodbye", "Hava a good day"],
+    "patterns": ["cya", "See you later", "Goodbye", "Hava a good day", "Bye", "Ciao"],
     "response": ["Sad to see you go :(", "Talk to  you later", "Goodbye!"]
   }
 ]}

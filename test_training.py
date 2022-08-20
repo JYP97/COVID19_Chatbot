@@ -1,5 +1,4 @@
 import nltk
-# nltk.download('punkt')
 import numpy as np
 from nltk.stem.lancaster import LancasterStemmer
 
@@ -11,7 +10,6 @@ import random
 import pickle
 import json
 import csv
-
 
 # csv_reader = csv.reader(open("multilingual.csv"))
 
@@ -117,4 +115,3 @@ def chat():
         else:
             print("I don't get that, try again")
 chat()
-
