@@ -1,0 +1,246 @@
+{
+  "intents": [
+    {
+      "tag": "protection",
+      "patterns": [
+        "How to avoid getting infected?",
+        "How can I protect myself?",
+        "Is there any suggestions for people during COVID?",
+        "What should be done to prevent COVID?",
+         "How can I protect my child from COVID-19 infection?",
+          "How do I prepare my children in case of COVID-19 outbreak in our community?",
+          "How can I help protect myself?",
+          "What steps should parents take to protect children?",
+          "How can my family and I prepare for COVID-19?",
+          "What steps can my family take to reduce our risk of getting COVID-19?",
+          "How can I keep my family healthy?"
+      ],
+      "response": [
+        "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, but plz also wear musk when you out.",
+        "Maintain a distance of at least 1 meter from people who are coughing or sneezing.",
+        "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water.",
+        "Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.",
+        "Disposable medical face masks are intended for a single use only. After use they should be removed using appropriate techniques.",
+        "The following measures are not effective against COVID-2019: Smoking, Wearing multiple masksTaking antibiotics. You should maintain a distance of at least 1 meter from people who are coughing or sneezing.",
+        "Masks are an important method to protect. If you or your family members have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection.",
+        "Masks are an important part of containing 2019-nCoV spread between people, along with other PPE and hand hygiene."
+      ]
+    },
+    {
+      "tag": "Animals",
+      "patterns": [
+        "Can humans become infected with the COVID-19 from an animal source?",
+        "Can I catch COVID-19 from my pet?"
+      ],
+      "response": [
+        "Possible animal sources of COVID-19 have not yet been confirmed.",
+        "It is still too early to say whether animals could be theintermediate host in the transmission of the COVID-19."
+      ]
+    },
+    {
+      "tag": "contraceptive",
+      "patterns": [
+        "how can I avoid getting pregnant during pandemic?",
+        "I can’t access my contraceptive method. What do you advise?",
+        "What's the best contraceptive method to use during the pandemic?"
+      ],
+      "response": [
+        "Consider using condoms, fertility awareness-based methods, lactational amenorrhea",
+        "Methods recommended for self-care could include the pill, emergency contraception pills, and DMPA-SC",
+        " You may be able to access information and contraceptive services from a healthcare provider by phone or online.",
+        "plz buy condoms, spermicides, iaphragm, pills, or emergency contraceptive pills from a nearby pharmacy or drug shop.",
+        "Condoms, when they are used consistently and correctly, are the only method of contraception that help to prevent unintended pregnancy and protect against sexually transmitted infections, including HIV.",
+        "Emergency contraceptive pills can prevent up to 95% of pregnancies when taken within 5 days after intercourse.",
+        "Seek advice and information from your health provider.",
+        "Consider using methods that do not have medical restrictions like minipills, condoms, spermicides.",
+        "seek advice from a health care professional to ensure you are using a method of contraception which is suitable and safe for you."
+      ]
+    },
+    {
+      "tag": "gathering",
+      "patterns": [
+        "Where can I find advice on health risks around mass gatherings?",
+        "what can we do to reduce the risk of participants catching COVID-19, if we go ahead with a mass gathering?"
+      ],
+      "response": [
+        "Promote hand washing, respiratory hygiene and social distancing at the event.",
+        "You should consider whether the number of participants at the event could be reduced, making available participation by video or teleconference.",
+        "Possibly screening participants for COVID-19 symptoms at points of entry to the venue.",
+        "WHO has produced guidance and also a training course on how to plan for a mass gathering: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/points-of-entry-and-mass-gatherings",
+        "You need to consider the location and duration of the event as well as the number of participants.",
+        "All countries should seriously consider postponing or reducing mass gatherings that bring people together and have the potential to amplify disease and support the recommended best practice of physical distancing."
+      ]
+    },
+    {
+      "tag": "source",
+      "patterns": [
+        "Whats the source of COVID-19?",
+        "Is the source of the coronavirus causing COVID-19 known?"
+      ],
+      "response": [
+        "The virus that causes COVID-19 and the one that caused the outbreak of SARS are related to each other genetically.",
+        "Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown.",
+        "All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus.",
+        "SARS-CoV-2 virus most probably has its ecological reservoir in bats."
+      ]
+    },
+    {
+      "tag": "incubation",
+      "patterns": [
+        "How long is the incubation period for COVID-19?",
+        "How long does the virus survive on surfaces?",
+        "Is it safe to receive a package from any area where COVID-19 has been reported?"
+      ],
+      "response": [
+        "Most estimates of the incubation period for COVID-19 is two week, most commonly around five days. The likelihood of an infected person contaminating commercial goods is low",
+        "Studies suggest that coronaviruses may persist on surfaces for a few hours or up to several days.",
+        "This may vary under different conditions.",
+        "There is currently no data available on stability of 2019-nCoV on surfaces.",
+        "WHO continues to monitor existing evidence around nCoV and will update when such evidence is available."
+      ]
+    },
+    {
+      "tag": "cleaning",
+      "patterns": [
+        "How to clean soiled clothing from patients with COVID-19?",
+        "What is the best way to clean soiled linen?",
+        "What should be used to clean soiled linen?",
+        "What is recommended for washing and disinfecting thing?",
+        "What are the disinfectants recommended for cleaning?"
+      ],
+      "response": [
+        "Washing by machine with warm water (60-90°C) and laundry detergent is recommended for cleaning and disinfection of linens.",
+        "Linen can be soaked in hot water and soap in a large drum, using a stick to stir, avoiding splashing",
+        "Soak linen in 0.05% chlorine for approximately 30 minutes.",
+        "Rinse with clean water and let linen dry fully in the sunlight.",
+        "There are many disinfectants, including commonly used hospital disinfectants, that are active against enveloped viruses.",
+        "Environmental cleaning should use disinfectants that are active against enveloped viruses."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "Is there a vaccine, drug or treatment for COVID-19?"
+      ],
+      "response": [
+        "There is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019 yet.",
+        "Most patients recover thanks to supportive care.",
+        "WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19."
+      ]
+    },
+    {
+      "tag": "patient",
+      "patterns": [
+        "Do patients with suspected or confirmed need to be hospitalized if they have mild illness?",
+        "What is the best way to treat illness?",
+        "what should i do when i was confirmed?"
+      ],
+      "response": [
+        "For patients who have mild illness, hospitalization may not be required unless there is concern for rapid clinical deterioration.",
+        "Ideally, suspected and confirmed 2019-nCoV acure respiratory disease patients should be isolated in single rooms."
+      ]
+    },
+    {
+      "tag": "transmisson",
+      "patterns": [
+        "How the new coronavirus spreads?",
+        "How does the virus spread?",
+        "Am I at risk for COVID-19 from a package or products?",
+        "Can mosquitoes or ticks spread the virus that causes COVID-19?",
+         "Can someone who has had COVID-19 spread the illness to others?",
+          "Can coronavirus be spread through food?",
+          "Can I get sick with COVID-19 if it is on food?"
+      ],
+      "response": [
+        "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks.",
+        "This evidence demonstrates viral transmission by droplets and contact with contaminated surfaces of equipment.",
+        "The virus that causes COVID-19 spreads from person to person. People are thought to be most contagious when symptomatic (the sickest). ",
+          "The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. ",
+          "Coronaviruses are generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with food, ticks, or other things. ",
+          "Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food, mosquitoes, or other things but through people.",
+          "At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by food, mosquitoes, or other things. The main way that COVID-19 spreads are from person to person. ",
+          "This coronavirus is thought to be spread most often by respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with imported goods or other things."
+      ]
+    },
+    {
+    "tag": "mask",
+    "patterns": [
+      "Should I wear a mask to protect myself?",
+      "Should children wear masks?",
+      "Does CDC recommend the use of facemask?"
+    ],
+    "response": [
+      "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. "
+    ]
+  },
+      {
+    "tag": "school",
+    "patterns": [
+      "While the school’s out, how can I help my child continue learning?",
+      "While the school’s out, will kids have access to meals?",
+      "How can I prepare in case my child’s school, child care facility, or university is dismissed?"
+    ],
+    "response": [
+      "Stay in touch with your child’s school.",
+      "Check with your school on plans",
+      "Talk to the school or facility about their emergency operations plan. "
+    ]
+  },
+    {
+    "tag": "warm",
+    "patterns": [
+      "Will warm weather stop the outbreak of COVID-19?",
+      "What temperature kills the virus that causes COVID-19?"
+    ],
+    "response": [
+      "It is not yet known whether weather and temperature affect the spread of COVID-19. ",
+      "Generally coronaviruses survive for shorter periods at higher temperatures and higher humidity than in cooler or dryer environments. However, we don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. "
+    ]
+  },
+    {
+        "tag": "stigma",
+        "patterns": [
+          "Why might someone blame or avoid individuals and groups because of COVID-19?",
+          "How can people help stop the stigma related to COVID-19?"],
+        "response": [
+      "Stigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads. Everyone can help stop stigma related to COVID-19 by knowing the facts and sharing them with others in your community.",
+      " Stigma hurts everyone by creating more fear or anger toward ordinary people instead of focusing on the disease that is causing the problem. People can fight stigma by providing social support in situations where you notice this is occurring. "
+    ]
+  },
+    {
+        "tag": "basics",
+        "patterns": [
+          "What is coronavirus?",
+          "What is the source of the virus?",
+          "Why is the disease being called COVID-19?"
+        ],
+        "response": [
+          "A novel coronavirus is a new coronavirus. The virus-causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illnesses, like the common cold.",
+          "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. ",
+          "The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease."
+        ]
+      },
+      {
+        "tag": "CDC",
+        "patterns": [
+          "How do CDC’s COVID-19 case numbers?",
+          "Why do some state’s COVID-19 case numbers sometimes differ from what is posted on CDC’s website?"
+        ],
+        "response": [
+          "CDC’s COVID-19 case numbers include many publicly reported numbers, including information from state, local, territorial, international and external partners.",
+          "CDC’s overall case numbers are validated through a confirmation process with jurisdictions. The process used for finding and confirming cases displayed by different places may differ."
+        ]
+      },
+      {
+        "tag": "number",
+        "patterns": [
+          "Why are we seeing a rise in cases?",
+          "Why do the number of cases for previous days increase?"
+        ],
+        "response": [
+          "The number of cases of COVID-19 being reported in the United States is rising due to increased laboratory testing and reporting across the country. ",
+          "Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late."
+        ]
+      }
+  ]
+}
