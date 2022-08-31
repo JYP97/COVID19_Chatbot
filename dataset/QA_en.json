@@ -93,7 +93,7 @@
       ],
       "response": [
         "Washing by machine with warm water and laundry detergent is recommended for cleaning and disinfection of linens.",
-        "Linen can be soaked in hot water and soap in a large drum, using a stick to stir, avoiding splashing",
+        "Linen can be soaked in hot water and soap in a large drum, using a stick to stir, avoiding splashing.",
         "Soak linen in 0.05% chlorine for approximately 30 minutes.",
         "Rinse with clean water and let linen dry fully in the sunlight.",
         "There are many disinfectants, including commonly used hospital disinfectants, that are active against enveloped viruses.",
@@ -138,11 +138,11 @@
       "response": [
         "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks.",
         "This evidence demonstrates viral transmission by droplets and contact with contaminated surfaces of equipment.",
-        "The virus that causes COVID-19 spreads from person to person. People are thought to be most contagious when symptomatic (the sickest). ",
-        "The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. ",
-        "Coronaviruses are generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with food, ticks, or other things. ",
+        "The virus that causes COVID-19 spreads from person to person. People are thought to be most contagious when symptomatic.",
+        "The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes.",
+        "Coronaviruses are generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with food, ticks, or other things.",
         "Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food, mosquitoes, or other things but through people.",
-        "At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by food, mosquitoes, or other things. The main way that COVID-19 spreads are from person to person. ",
+        "At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by food, mosquitoes, or other things. The main way that COVID-19 spreads are from person to person.",
         "This coronavirus is thought to be spread most often by respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with imported goods or other things."
       ]
     },
@@ -154,7 +154,7 @@
       "Does CDC recommend the use of facemask?"
     ],
     "response": [
-      "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. "
+      "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community."
     ]
   },
       {
@@ -166,8 +166,8 @@
     ],
     "response": [
       "Stay in touch with your child’s school.",
-      "Check with your school on plans",
-      "Talk to the school or facility about their emergency operations plan. "
+      "Check with your school on plans.",
+      "Talk to the school or facility about their emergency operations plan."
     ]
   },
     {
@@ -177,9 +177,9 @@
       "What temperature kills the virus that causes COVID-19?"
     ],
     "response": [
-      "It is not yet known whether weather and temperature affect the spread of COVID-19. ",
+      "It is not yet known whether weather and temperature affect the spread of COVID-19.",
       "Generally coronaviruses survive for shorter periods at higher temperatures and higher humidity than in cooler or dryer environments.",
-      "We don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. "
+      "We don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point."
     ]
   },
     {
@@ -192,7 +192,7 @@
         ],
         "response": [
           "A novel coronavirus is a new coronavirus. The virus-causing coronavirus disease 2019, is not the same as the coronaviruses that commonly circulate among humans and cause mild illnesses, like the common cold.",
-          "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats. ",
+          "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats.",
           "The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19.",
           " In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease."
         ]
@@ -204,7 +204,7 @@
           "Why do the number of cases for previous days increase?"
         ],
         "response": [
-          "The number of cases of COVID-19 being reported in the United States is rising due to increased laboratory testing and reporting across the country. ",
+          "The number of cases of COVID-19 being reported in the United States is rising due to increased laboratory testing and reporting across the country.",
           "Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late."
         ]
       },
@@ -240,8 +240,8 @@
         "What is CDC doing about COVID-19?"
       ],
       "response": [
-        "For recommendations and guidance on persons under investigation",
-        "Infection control, including personal protective equipment guidance",
+        "For recommendations and guidance on persons under investigation.",
+        "Infection control, including personal protective equipment guidance.",
         "Home care and isolation, and case investigation.",
         "CDC is working with other federal partners in a whole-of-government response.",
         "CDC works 24/7 to protect people’s health."
@@ -278,8 +278,7 @@
         "Who is at risk of developing severe illness?"
       ],
       "response": [
-        "Based on currently available information and clinical expertise, older adults and people of any age who have serious underlying medical conditions might be at higher risk for severe illness from COVID-19.",
-        "Based on what we know now, those at high-risk for severe illness from COVID-19 are: People aged 65 years and older",
+        "Based on what we know now, those at high-risk for severe illness from COVID-19 are: People aged 65 years and older.",
         "People who live in a nursing home or long-term care facility.",
         "People of all ages with underlying medical conditions, particularly if not well controlled.",
         "People with chronic lung disease or moderate to severe asthma.",
@@ -288,8 +287,7 @@
         "People with severe obesity.",
         "People with diabetes.",
         "People with chronic kidney disease undergoing dialysis.",
-        "People with liver disease.",
-        "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions appear to develop serious illness more often than others."
+        "People with liver disease."
       ]
     },
        {
