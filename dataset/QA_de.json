@@ -58,7 +58,8 @@
       "tag": "source",
       "patterns": [
         "Whats the source of COVID-19?",
-        "Is the source of the coronavirus causing COVID-19 known?"
+        "Is the source of the coronavirus causing COVID-19 known?",
+        "Was ist die Quelle des Virus?"
       ],
       "response": [
         "The virus that causes COVID-19 and the one that caused the outbreak of SARS are related to each other genetically.",
@@ -186,7 +187,6 @@
       "tag": "basics",
       "patterns": [
         "Was ist das Coronavirus?",
-        "Was ist die Quelle des Virus?",
         "Warum wird die Krankheit COVID-19 genannt?",
         "Was ist COVID-19?"
       ],
@@ -195,17 +195,6 @@
         "COVID-19 wird durch ein Coronavirus namens SARS-CoV-2 verursacht. Coronaviren sind eine große Familie von Viren, die bei Menschen und vielen verschiedenen Tierarten, darunter Kamele, Rinder, Katzen und Fledermäuse, verbreitet sind.",
         "Die neue Bezeichnung für diese Krankheit lautet Coronavirus-Krankheit 2019, abgekürzt COVID-19.",
         "In COVID-19 steht 'CO' für 'Corona', 'VI' für 'Virus' und 'D' für 'Krankheit'."
-      ]
-    },
-    {
-      "tag": "number",
-      "patterns": [
-        "Warum steigt die Zahl der Fälle?",
-        "Warum steigt die Zahl der Fälle für die vorangegangenen Tage?"
-      ],
-      "response": [
-        "Die Zahl der in den Vereinigten Staaten gemeldeten COVID-19-Fälle nimmt zu, da die Zahl der Labortests und Meldungen landesweit gestiegen ist.",
-        "Verzögerungen bei der Meldung können dazu führen, dass die Zahl der an den Vortagen gemeldeten COVID-19-Fälle ansteigt. Da die Durchführung von Labortests Zeit in Anspruch nimmt, können die Fälle vom Vortag mit einigen Tagen Verspätung zu den täglichen Zählungen hinzugefügt werden."
       ]
     },
     {

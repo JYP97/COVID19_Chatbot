@@ -16,7 +16,8 @@
         "How can I keep my family healthy?",
         "What can I do to protect myself and prevent the spread of disease?",
         "How can I protect myself from the spread of disease?",
-        "how can I avoid infection of COVID-19?"
+        "How can I avoid infection of COVID-19?",
+        "How can I deal with COVID-19?"
       ],
       "response": [
         "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, but plz also wear musk when you out.",
@@ -24,9 +25,9 @@
         "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water.",
         "Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.",
         "Disposable medical face masks are intended for a single use only. After use they should be removed using appropriate techniques.",
-        "The following measures are not effective against COVID-2019: Smoking, Wearing multiple masksTaking antibiotics. You should maintain a distance of at least 1 meter from people who are coughing or sneezing.",
+        "The following measures are not effective against COVID-19: Smoking, Wearing multiple masksTaking antibiotics. You should maintain a distance of at least 1 meter from people who are coughing or sneezing.",
         "Masks are an important method to protect. If you or your family members have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection.",
-        "Masks are an important part of containing 2019-nCoV spread between people, along with other PPE and hand hygiene."
+        "Masks are an important part of containing 2019-nCoV spread between people and hand hygiene."
       ]
     },
     {
@@ -43,8 +44,9 @@
     {
       "tag": "gathering",
       "patterns": [
-        "Where can I find advice on health risks around mass gatherings?",
-        "what can we do to reduce the risk of participants catching COVID-19, if we go ahead with a mass gathering?"
+        "How can people deal with the health risks around mass gatherings?",
+        "What should people do with a mass gathering?",
+        "What can we do to reduce the risk of participants catching COVID-19, if we go ahead with a mass gathering?"
       ],
       "response": [
         "Promote hand washing, respiratory hygiene and social distancing at the event.",
@@ -57,8 +59,10 @@
     {
       "tag": "source",
       "patterns": [
-        "Whats the source of COVID-19?",
-        "Is the source of the coronavirus causing COVID-19 known?"
+        "What is the source of COVID-19?",
+        "Where does the COVID-19 come from?",
+        "Is the source of the coronavirus causing COVID-19 known?",
+        "What is the source of the virus?"
       ],
       "response": [
         "The virus that causes COVID-19 and the one that caused the outbreak of SARS are related to each other genetically.",
@@ -68,7 +72,7 @@
       ]
     },
     {
-      "tag": "incubation",
+      "tag": "period",
       "patterns": [
         "How long is the incubation period for COVID-19?",
         "How long does the virus survive on surfaces?",
@@ -83,7 +87,7 @@
       ]
     },
     {
-      "tag": "cleaning",
+      "tag": "disinfect",
       "patterns": [
         "How to clean soiled clothing from patients with COVID-19?",
         "What is the best way to clean soiled linen?",
@@ -103,30 +107,22 @@
     {
       "tag": "treatment",
       "patterns": [
-        "Is there a vaccine, drug or treatment for COVID-19?"
-      ],
-      "response": [
-        "There is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019 yet.",
-        "Most patients recover thanks to supportive care.",
-        "WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19."
-      ]
-    },
-    {
-      "tag": "patient",
-      "patterns": [
-        "Do patients with suspected or confirmed need to be hospitalized if they have mild illness?",
+        "How can people recover from infection?",
         "What is the best way to treat illness?",
-        "what should i do when i was confirmed?"
+        "How to treat people with infection?",
+        "What should I do when I was confirmed?"
       ],
       "response": [
-        "For patients who have mild illness, hospitalization may not be required unless there is concern for rapid clinical deterioration.",
-        "Ideally, suspected and confirmed 2019-nCoV acure respiratory disease patients should be isolated in single rooms."
+        "Most patients recover thanks to supportive care.",
+        "Sorry, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019 yet.",
+        "WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.",
+        "Optimal supportive care includes oxygen for severely ill patients and those who are at risk for severe disease."
       ]
     },
     {
       "tag": "transmisson",
       "patterns": [
-        "How the new coronavirus spreads?",
+        "How does the coronavirus spreads?",
         "How does the virus spread?",
         "How does COVID-19 spread?",
         "Am I at risk for COVID-19 from a package or products?",
@@ -143,7 +139,8 @@
         "Coronaviruses are generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with food, ticks, or other things.",
         "Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food, mosquitoes, or other things but through people.",
         "At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by food, mosquitoes, or other things. The main way that COVID-19 spreads are from person to person.",
-        "This coronavirus is thought to be spread most often by respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with imported goods or other things."
+        "This coronavirus is thought to be spread most often by respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with imported goods or other things.",
+        "It is not yet known whether weather and temperature affect the spread of COVID-19."
       ]
     },
     {
@@ -151,7 +148,7 @@
     "patterns": [
       "Should I wear a mask to protect myself?",
       "Should children wear masks?",
-      "Does CDC recommend the use of facemask?"
+      "Does CDC recommend the use of mask?"
     ],
     "response": [
       "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community."
@@ -186,7 +183,6 @@
         "tag": "basics",
         "patterns": [
           "What is coronavirus?",
-          "What is the source of the virus?",
           "Why is the disease being called COVID-19?",
           "What is COVID-19?"
         ],
@@ -195,17 +191,6 @@
           "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats.",
           "The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19.",
           " In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease."
-        ]
-      },
-      {
-        "tag": "number",
-        "patterns": [
-          "Why are we seeing a rise in cases?",
-          "Why do the number of cases for previous days increase?"
-        ],
-        "response": [
-          "The number of cases of COVID-19 being reported in the United States is rising due to increased laboratory testing and reporting across the country.",
-          "Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late."
         ]
       },
     {
@@ -261,7 +246,7 @@
       ]
     },
         {
-      "tag": "necessity of covid-test",
+      "tag": "covid-test",
       "patterns": [
         "Should I be tested for COVID-19?",
         "Why should people take a test for covid-19?"
@@ -271,7 +256,7 @@
       ]
     },
         {
-      "tag": "people with high risk for serioius illness",
+      "tag": "people with high risk for serious illness",
       "patterns": [
         "Who is at higher risk for serious illness from COVID-19?",
         "Who are most possible to suffer from serious illness from COVID-19?",
@@ -291,7 +276,7 @@
       ]
     },
        {
-      "tag": "symptoms of COVID-19",
+      "tag": "symptoms",
       "patterns": [
         "What are the symptoms of COVID-19?",
         "What are the symptoms and complications that COVID-19 can cause?"
@@ -314,87 +299,65 @@
       ]
     },
     {
-      "tag": "risk of infection contacting with dead people",
-      "patterns": [
-        "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?",
-        "Am I at risk if I touch someone who died of COVID-19 after they have passed away?"
+      "tag":"isolation treatments",
+      "patterns":[
+        "Is there a model for setting up an isolation ward and types and products and health requirements?"
       ],
-      "response": [
-        "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19.",
-        "COVID-19 is a new disease and we are still learning how it spreads. The virus that causes COVID-19 is thought to mainly spread from close contact with a person who is currently sick with COVID-19. This type of spread is not a concern after death."
+      "response":[
+        "A model for setting up an isolation ward is currently under development."
       ]
     },
-    {"tag":"isolation treatments",
-  "patterns":[
-    "Is there a model for setting up an isolation ward and types and products and health requirements?"
-  ],
-  "response":[
-    "A model for setting up an isolation ward is currently under development."
-  ]
+    {
+      "tag":"anti-epidemic measures",
+      "patterns":[
+        "Can antiretrovirals be used to treat COVID-19?",
+        "Can antiretrovirals be used to prevent COVID-19 infection?"
+      ],
+      "response":[
+        "While the evidence of benefit of using antiretrovirals to treat coronavirus infections is of very low certainty, serious side effects were rare.",
+        "Two studies have reported positive results of the use of LPV as post-exposure prophylaxis for SARS-CoV and MERS-CoV. However, the certainty of the evidence is very low due to small sample size, variability in drugs provided, and uncertainty regarding intensity of exposure."
+      ]
     },
-     {"tag": "Chlorine", 
-    "patterns": [
-      "Can chlorine solutions be used?"
-    ],
-    "response": [
-      "Chlorine solutions are strongly discouraged as they carry a higher risk of hand irritation and ill health effects from making and diluting chlorine solutions, including eye irritation and respiratory problems.",
-      "No, there is a risk of loss of antimicrobial effect if exposed to sunlight or heat."
-    ]
-     },
-    {"tag":"anti-epidemic measures",
-    "patterns":[
-      "Can antiretrovirals be used to treat COVID-19?",
-      "Can antiretrovirals be used to prevent COVID-19 infection?"
-    ],
-    "response":[
-      "While the evidence of benefit of using antiretrovirals to treat coronavirus infections is of very low certainty, serious side effects were rare.",
-      "Two studies have reported positive results of the use of LPV as post-exposure prophylaxis for SARS-CoV and MERS-CoV. However, the certainty of the evidence is very low due to small sample size, variability in drugs provided, and uncertainty regarding intensity of exposure."
-    ]
-    },
-      {"tag": "plan", 
-    "patterns": [
-      "What studies on treatment and prevention of COVID-19 with antiretrovirals are being planned?"
-    ],
-    "response": [
-      "Several randomized trials are planned to assess the safety and efficacy of using antiretroviral drugs for treating COVID-19, in combination with other drugs."
-    ]
-      },
-    {"tag":"physical health",
-    "patterns":[
+    {
+      "tag":"physical health",
+      "patterns":[
       "What is physical activity?",
       "Why do we need physical activity?",
       "How much physical activity is recommended?",
       "So how do I stay safe while exercising in COVID-19?",
       "How do I stay active in and around the home?"],
-    "response":[
+      "response":[
       "Physical activity includes all forms of activerecreation, sports participation, cycling and walking, as well as activities you do at work and around the home and garden.",
       "Regular physical activity benefits both the body and mind. It can reduce high blood pressure, help manage weight and reduce the riskof heart disease, stroke, type 2 diabetes, and various cancers.",
       "It improves bone and muscle strength and increases balance, flexibility andfitness.",
       "For older people, activities that improve balance help to preventfalls and injuries.",
       "For children, regular physical activity helps supporthealthy growth and development and reduce the risk of disease in later life, and through regular activity, children can develop fundamental movement skills and build social relationships.",
       "Regular physical activity improves mental health and can reduce the risk of depression, cognitive decline and delay the onset of dementia - and improve overall feelings of wellbeing."
-    ]
+      ]
     },
-     {"tag": "physical health recommendation", 
-    "patterns": [
+     {
+       "tag": "physical health recommendation",
+       "patterns": [
       "How much physical activity is recommended?", "How do I stay safe while exercising in COVID-19?",
       "How do I stay active in and around the home?"
-    ],
-    "response": [
+       ],
+       "response": [
       "Infants under the age of 1 year need to be physically active several times a day.",
       "Children under 5 years of age should spend at least 180 minutes a day in physical activities, with 3-4 year-olds being moderately or vigorously active for an hour a day.",
       "Older adults with poor mobility should do physical activity to enhance balance and prevent falls on 3 or more days per week.",
       "Do not exercise if you have a fever, cough and difficulty breathing. Stay home and rest, seek medical attention and call in advance."
     ]
      },
-     {"tag": "malaria report", 
-    "patterns": [
-      "How many malaria-affected countries have reported cases of COVID-19?"],
-    "response": [
-      "Malaria-endemic countries in all WHO regions have reported cases of COVID-19."
+     {
+       "tag": "malaria report",
+       "patterns": [
+         "How many malaria-affected countries have reported cases of COVID-19?"],
+       "response": [
+         "Malaria-endemic countries in all WHO regions have reported cases of COVID-19."
     ]
      },
-  {"tag": "malaria interventions", 
+  {
+    "tag": "malaria interventions",
     "patterns": [
       "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
       "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
@@ -405,7 +368,8 @@
       "Yes, delivery of intermittent preventive treatment in pregnancy, seasonal malaria chemoprevention, and intermittent preventive treatment in infants should be maintained provided that best practices for protecting health workers and other front-line workers from COVID-19 are followed."
     ]
   },
-    {"tag": "measures", 
+    {
+      "tag": "measures",
     "patterns": [
       "What additional special measures may be needed in the context of COVID-19?"
     ],
@@ -414,27 +378,19 @@
       "The use of mass drug administration which have proved useful in some previous emergencies."
     ]
     },
-    {"tag": "spread", 
-    "patterns": [
-      "Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?"
-    ],
-    "response": [
-      "Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria.",
-      "The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.",
-      "In recent weeks, the COVID-19 pandemic has tested the resilience of robust health systems around the world."
-    ]
-    },
-    {"tag": "consideration", 
-    "patterns": [
+    {
+      "tag": "consideration",
+      "patterns": [
       "What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?"
-    ],
-    "response": [
+      ],
+      "response": [
       "Efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services.",
       "Countries that are nearing malaria elimination must protect their important gains and avoid malaria resurgences.",
       "Countries that have eliminated malaria must remain vigilant for any imported cases of malaria that may be occurring to prevent reintroduction of the disease."
     ]
     },
-    {"tag":"WHO position",
+    {
+      "tag":"WHO position",
     "patterns":[
       "What is WHO's position on the use of chloroquine and hydroxychloroquine, antiretrovirals or corticosteroids in the context of the COVID-19 response?"
     ],
@@ -445,15 +401,17 @@
       "The current interim guidance from WHO on clinical management of severe acute respiratory infection when COVID-19 infection is suspected advises against the use of corticosteroids unless indicated for another reason."
     ]
     },
-    {"tag":"antiretrovirals",
-    "patterns":[
-      "If countries use antiretrovirals for COVID-19, are there concerns about treatment shortages for people living with HIV?"
+    {
+      "tag":"antiretrovirals",
+      "patterns":[
+        "If countries use antiretrovirals for COVID-19, are there concerns about treatment shortages for people living with HIV?"
     ],
     "response":[
       "Any country that allows the use of HIV medicines for the treatment of COVID-19 must ensure that an adequate and sustainable supply is in place."
     ]
     },
-  {"tag":"pregnant women treatment",
+  {
+    "tag":"pregnant women treatment",
     "patterns":[
       "Should pregnant and breastfeeding women living with HIV with COVID-19 and their newborns be managed differently?",
       "Are pregnant women at higher risk from COVID-19?",
@@ -470,7 +428,8 @@
       "It is still unknown if a pregnant woman with COVID-19 can pass the virus to her foetus or baby during pregnancy or delivery."
     ]
   },
-    {"tag":"smoker",
+    {
+      "tag":"smoker",
     "patterns":[
       "Are smokers and tobacco users at higher risk of COVID-19 infection?"
     ],
@@ -479,36 +438,13 @@
       "Conditions that increase oxygen needs or reduce the ability of the body to use it properly will put patients at higher risk of serious lung conditions such as pneumonia."
     ]
     },
-  {"tag":"pregnangt women care",
-    "patterns":[
-      "What care should be available during pregnancy and childbirth?"
-    ],
-    "response":[
-      "This includes antenatal, newborn, postnatal, intrapartum and mental health care."
-    ]
-  },
-  {"tag":"birth",
-    "patterns":[
-      "Do pregnant women with suspected or confirmed COVID-19 need to give birth by caesarean section?"
-    ],
-    "response":[
-      "No. WHO advice is that caesarean sections should only be performed when medically justified."
-    ]
-  },
-  {"tag":"breastfeeding",
-    "patterns":[
-      "Can women with COVID-19 breastfeed?", "Can I touch, hold and breastfeed my newborn baby if I have COVID-19?"
-    ],
-    "response":[
-      "Yes. Women with COVID-19 can breastfeed if they wish to do so.",
-      "Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive."
-    ]
-  },
-    {"tag": "greeting",
+    {
+      "tag": "greeting",
     "patterns": ["Hi", "How are you", "Hello", "Good day", "Whats up", "Is anyone there?", "How are you doing?"],
     "response": ["Hello!", "Good to see you", "Hi there, how can I help you?", "I'm good, and you?"]
   },
-  {"tag": "goodbye",
+  {
+    "tag": "goodbye",
     "patterns": ["cya", "See you later", "Goodbye", "Hava a good day", "Bye", "Ciao"],
     "response": ["Sad to see you go :(", "Talk to  you later", "Goodbye!", "Bye"]
   }
