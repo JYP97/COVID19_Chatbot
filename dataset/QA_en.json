@@ -122,7 +122,8 @@
       "tag": "infection",
       "patterns": [
         "What should I do when I was confirmed?",
-        "What can I do if I was infected?"
+        "What can I do if I was infected?",
+        "What if I get infected?"
       ],
       "response": [
         "Keep at least a 1-metre distance from others, even from your family members.",
@@ -338,7 +339,8 @@
       "Why do we need physical activity?",
       "How much physical activity is recommended?",
       "So how do I stay safe while exercising in COVID-19?",
-      "How do I stay active in and around the home?"],
+      "How do I stay active in and around the home?"
+      ],
       "response":[
       "Physical activity includes all forms of activerecreation, sports participation, cycling and walking, as well as activities you do at work and around the home and garden.",
       "Regular physical activity benefits both the body and mind. It can reduce high blood pressure, help manage weight and reduce the riskof heart disease, stroke, type 2 diabetes, and various cancers.",
