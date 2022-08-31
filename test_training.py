@@ -10,7 +10,7 @@ import pickle
 import json
 
 
-with open("dataset/dialogs.json") as file:
+with open("dataset/QA_en.json") as file:
     dialogs = json.load(file)
 
 try:
