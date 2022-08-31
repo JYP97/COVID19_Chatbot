@@ -10,7 +10,7 @@ import pickle
 import json
 
 
-with open("dataset/QA_en.json", encoding='utf-8') as file:
+with open("dataset/QA.json", encoding='utf-8') as file:
     dialogs = json.load(file)
 print(dialogs)
 # try:
@@ -75,7 +75,7 @@ model = tflearn.DNN(net)
 # try:
 #     model.load("model.tflearn")
 # except:
-model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
+model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
 model.save("model.tflearn")
 
 
