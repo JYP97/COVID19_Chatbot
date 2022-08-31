@@ -12,7 +12,6 @@ import json
 
 with open("dataset/QA_en.json", encoding='utf-8') as file:
     dialogs = json.load(file)
-# print(dialogs)
 
 try:
     with open("data.pickle", "rb") as f:

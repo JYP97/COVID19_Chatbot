@@ -109,14 +109,27 @@
       "patterns": [
         "How can people recover from infection?",
         "What is the best way to treat illness?",
-        "How to treat people with infection?",
-        "What should I do when I was confirmed?"
+        "How to treat people with infection?"
       ],
       "response": [
         "Most patients recover thanks to supportive care.",
         "Sorry, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019 yet.",
         "WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.",
         "Optimal supportive care includes oxygen for severely ill patients and those who are at risk for severe disease."
+      ]
+    },
+    {
+      "tag": "infection",
+      "patterns": [
+        "What should I do when I was confirmed?",
+        "What can I do if I was infected?"
+      ],
+      "response": [
+        "Keep at least a 1-metre distance from others, even from your family members.",
+        "Clean your hands frequently.",
+        "Keep the room well-ventilated.",
+        "If you share a room, place beds at least 1 metre apart.",
+        "Stay positive by keeping in touch with loved ones by phone or online, and by exercising at home."
       ]
     },
     {
