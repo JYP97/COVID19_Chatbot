@@ -3,7 +3,7 @@ import numpy as np
 from nltk.stem.lancaster import LancasterStemmer
 
 stemmer = LancasterStemmer()
-
+xcc  = 0
 import tflearn
 import tensorflow as tf
 import random
