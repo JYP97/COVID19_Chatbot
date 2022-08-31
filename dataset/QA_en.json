@@ -455,13 +455,18 @@
     },
     {
       "tag": "greeting",
-    "patterns": ["Hi", "How are you", "Hello", "Good day", "Whats up", "Is anyone there?", "How are you doing?"],
-    "response": ["Hello!", "Good to see you", "Hi there, how can I help you?", "I'm good, and you?"]
+    "patterns": ["Hi", "How are you", "Hello", "Good day", "Whats up", "Is anyone there?", "How are you doing?", "Hi, there!", "Hey!"],
+    "response": ["Hello!", "Good to see you", "Hi there, how can I help you?", "I'm good, and you?","Hey!"]
   },
   {
     "tag": "goodbye",
     "patterns": ["cya", "See you later", "Goodbye", "Hava a good day", "Bye", "Ciao"],
     "response": ["Sad to see you go :(", "Talk to  you later", "Goodbye!", "Bye"]
-  }
+  },
+    {
+      "tag": "Identity",
+    "patterns": ["what are you?", "What is your name?"],
+    "response": ["I am Chatbot"]
+    }
   ]
 }
