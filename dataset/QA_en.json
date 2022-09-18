@@ -313,12 +313,15 @@
       ]
     },
     {
-      "tag":"isolation treatments",
-      "patterns":[
-        "Is there a model for setting up an isolation ward and types and products and health requirements?"
+      "tag": "Chlorine",
+      "patterns": [
+        "Can chlorine solutions be used?",
+        "Is it possible to use Chlorine solutions?",
+        "How aboout Chlorine solutions?"
       ],
-      "response":[
-        "A model for setting up an isolation ward is currently under development."
+      "response": [
+        "Chlorine solutions are strongly discouraged as they carry a higher risk of hand irritation and ill health effects from making and diluting chlorine solutions, including eye irritation and respiratory problems.",
+        "No, there is a risk of loss of antimicrobial effect if exposed to sunlight or heat."
       ]
     },
     {
@@ -338,7 +341,6 @@
       "What is physical activity?",
       "Why do we need physical activity?",
       "How much physical activity is recommended?",
-      "So how do I stay safe while exercising in COVID-19?",
       "How do I stay active in and around the home?"
       ],
       "response":[
@@ -350,31 +352,9 @@
       "Regular physical activity improves mental health and can reduce the risk of depression, cognitive decline and delay the onset of dementia - and improve overall feelings of wellbeing."
       ]
     },
-     {
-       "tag": "physical health recommendation",
-       "patterns": [
-      "How much physical activity is recommended?", "How do I stay safe while exercising in COVID-19?",
-      "How do I stay active in and around the home?"
-       ],
-       "response": [
-      "Infants under the age of 1 year need to be physically active several times a day.",
-      "Children under 5 years of age should spend at least 180 minutes a day in physical activities, with 3-4 year-olds being moderately or vigorously active for an hour a day.",
-      "Older adults with poor mobility should do physical activity to enhance balance and prevent falls on 3 or more days per week.",
-      "Do not exercise if you have a fever, cough and difficulty breathing. Stay home and rest, seek medical attention and call in advance."
-    ]
-     },
-     {
-       "tag": "malaria report",
-       "patterns": [
-         "How many malaria-affected countries have reported cases of COVID-19?"],
-       "response": [
-         "Malaria-endemic countries in all WHO regions have reported cases of COVID-19."
-    ]
-     },
   {
     "tag": "malaria interventions",
     "patterns": [
-      "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
       "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
       "Should WHO-recommended preventive therapies be maintained in sub-Saharan Africa?"],
     "response": [
@@ -386,7 +366,9 @@
     {
       "tag": "measures",
     "patterns": [
-      "What additional special measures may be needed in the context of COVID-19?"
+      "What additional special measures may be needed in the context of COVID-19?",
+      "What extra measures do we need for COVID-19?",
+      "Any additional suggested measures in the context of COVID-19?"
     ],
     "response": [
       "In addition to routine approaches to malaria control, there may be a case for special measures in the context of the COVID-19 pandemic such as a temporary return to presumptive malaria treatment.",
@@ -394,9 +376,22 @@
     ]
     },
     {
+      "tag": "spread",
+      "patterns": [
+        "Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?",
+        "Why is the spread of COVID-19 critical in malaria-affected areas?"
+      ],
+      "response": [
+        "Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria.",
+        "The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.",
+        "The COVID-19 pandemic has tested the resilience of robust health systems around the world."
+      ]
+    },
+    {
       "tag": "consideration",
       "patterns": [
-      "What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?"
+        "What are the key considerations for countries that are working to eliminate malaria?",
+        "What are the key considerations for countries that are working to prevent re-establishment of transmission?"
       ],
       "response": [
       "Efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services.",
@@ -407,22 +402,15 @@
     {
       "tag":"WHO position",
     "patterns":[
-      "What is WHO's position on the use of chloroquine and hydroxychloroquine, antiretrovirals or corticosteroids in the context of the COVID-19 response?"
+      "What is WHO's position on the use of chloroquine and hydroxychloroquine in the context of the COVID-19 response?", 
+      "What is WHO's position on the use of antiretrovirals in the context of the COVID-19 response?",
+      "What is WHO's position on the use of corticosteroids in the context of the COVID-19 response?"
     ],
     "response":[
       "WHO is actively following the ongoing clinical trials that are being conducted in response to COVID-19, including studies looking at the use of chloroquine and its derivative, hydroxychloroquine, for treatment and prevention.",
       "Currently, there is insufficient data to assess the effectiveness of this for treating COVID-19.",
       "WHO has designed a set of procedures to assess the performance, quality and safety of medical technologies during emergency situations.",
       "The current interim guidance from WHO on clinical management of severe acute respiratory infection when COVID-19 infection is suspected advises against the use of corticosteroids unless indicated for another reason."
-    ]
-    },
-    {
-      "tag":"antiretrovirals",
-      "patterns":[
-        "If countries use antiretrovirals for COVID-19, are there concerns about treatment shortages for people living with HIV?"
-    ],
-    "response":[
-      "Any country that allows the use of HIV medicines for the treatment of COVID-19 must ensure that an adequate and sustainable supply is in place."
     ]
     },
   {

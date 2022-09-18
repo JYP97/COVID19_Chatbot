@@ -314,140 +314,105 @@
       ]
     },
     {
-      "tag": "isolation treatments",
-      "patterns": [
-        "Is there a model for setting up an isolation ward and types and products and health requirements?"
-      ],
-      "response": [
-        "A model for setting up an isolation ward is currently under development."
-      ]
-    },
-    {
       "tag": "Chlorine",
       "patterns": [
-        "Can chlorine solutions be used?"
+        "Können Chlorlösungen verwendet werden?",
+        "Ist es möglich, Chlorlösungen zu verwenden?",
+        "Wie sieht es mit Chlorlösungen aus?"
       ],
       "response": [
-        "Chlorine solutions are strongly discouraged as they carry a higher risk of hand irritation and ill health effects from making and diluting chlorine solutions, including eye irritation and respiratory problems.",
-        "No, there is a risk of loss of antimicrobial effect if exposed to sunlight or heat."
+        "Von Chlorlösungen wird dringend abgeraten, da sie ein höheres Risiko von Handreizungen und gesundheitlichen Auswirkungen bei der Herstellung und Verdünnung von Chlorlösungen, einschließlich Augenreizungen und Atembeschwerden, mit sich bringen.",
+        "Nein, es besteht die Gefahr, dass die antimikrobielle Wirkung nachlässt, wenn sie dem Sonnenlicht oder der Hitze ausgesetzt wird."
       ]
     },
     {
       "tag": "anti-epidemic measures",
       "patterns": [
-        "Can antiretrovirals be used to treat COVID-19?",
-        "Can antiretrovirals be used to prevent COVID-19 infection?"
+        "Können antiretrovirale Medikamente zur Behandlung von COVID-19 eingesetzt werden?",
+        "Können antiretrovirale Medikamente zur Vorbeugung einer COVID-19-Infektion eingesetzt werden?"
       ],
       "response": [
-        "While the evidence of benefit of using antiretrovirals to treat coronavirus infections is of very low certainty, serious side effects were rare.",
-        "Two studies have reported positive results of the use of LPV as post-exposure prophylaxis for SARS-CoV and MERS-CoV. However, the certainty of the evidence is very low due to small sample size, variability in drugs provided, and uncertainty regarding intensity of exposure."
-      ]
-    },
-    {
-      "tag": "plan",
-      "patterns": [
-        "What studies on treatment and prevention of COVID-19 with antiretrovirals are being planned?"
-      ],
-      "response": [
-        "Several randomized trials are planned to assess the safety and efficacy of using antiretroviral drugs for treating COVID-19, in combination with other drugs."
+        "Der Nutzen von antiretroviralen Medikamenten zur Behandlung von Coronavirus-Infektionen ist zwar nur mit sehr geringer Sicherheit nachgewiesen, doch traten nur selten schwere Nebenwirkungen auf.",
+        "Zwei Studien haben über positive Ergebnisse bei der Verwendung von LPV als Postexpositionsprophylaxe für SARS-CoV und MERS-CoV berichtet. Die Beweissicherheit ist jedoch aufgrund der geringen Stichprobengröße, der Variabilität der verabreichten Medikamente und der Ungewissheit über die Intensität der Exposition sehr gering."
       ]
     },
     {
       "tag": "physical health",
       "patterns": [
-        "What is physical activity?",
-        "Why do we need physical activity?",
-        "How much physical activity is recommended?",
-        "So how do I stay safe while exercising in COVID-19?",
-        "How do I stay active in and around the home?"
+        "Was ist körperliche Aktivität?",
+        "Warum brauchen wir körperliche Aktivität?",
+        "Wie viel körperliche Aktivität wird empfohlen?",
+        "Wie bleibe ich in und um mein Haus herum aktiv?"
       ],
       "response": [
-        "Physical activity includes all forms of activerecreation, sports participation, cycling and walking, as well as activities you do at work and around the home and garden.",
-        "Regular physical activity benefits both the body and mind. It can reduce high blood pressure, help manage weight and reduce the riskof heart disease, stroke, type 2 diabetes, and various cancers.",
+        "Körperliche Aktivität umfasst alle Formen aktiver Erholung, sportliche Betätigung, Radfahren und Spazierengehen sowie Aktivitäten bei der Arbeit und in Haus und Garten.",
+        "Regelmäßige körperliche Aktivität ist sowohl für den Körper als auch für den Geist von Vorteil. Sie kann Bluthochdruck senken, bei der Gewichtskontrolle helfen und das Risiko von Herzerkrankungen, Schlaganfall, Typ-2-Diabetes und verschiedenen Krebsarten verringern.",
         "It improves bone and muscle strength and increases balance, flexibility andfitness.",
-        "For older people, activities that improve balance help to preventfalls and injuries.",
-        "For children, regular physical activity helps supporthealthy growth and development and reduce the risk of disease in later life, and through regular activity, children can develop fundamental movement skills and build social relationships.",
-        "Regular physical activity improves mental health and can reduce the risk of depression, cognitive decline and delay the onset of dementia - and improve overall feelings of wellbeing."
-      ]
-    },
-    {
-      "tag": "physical health recommendation",
-      "patterns": [
-        "How much physical activity is recommended?",
-        "How do I stay safe while exercising in COVID-19?",
-        "How do I stay active in and around the home?"
-      ],
-      "response": [
-        "Infants under the age of 1 year need to be physically active several times a day.",
-        "Children under 5 years of age should spend at least 180 minutes a day in physical activities, with 3-4 year-olds being moderately or vigorously active for an hour a day.",
-        "Older adults with poor mobility should do physical activity to enhance balance and prevent falls on 3 or more days per week.",
-        "Do not exercise if you have a fever, cough and difficulty breathing. Stay home and rest, seek medical attention and call in advance."
-      ]
-    },
-    {
-      "tag": "malaria report",
-      "patterns": [
-        "How many malaria-affected countries have reported cases of COVID-19?"
-      ],
-      "response": [
-        "Malaria-endemic countries in all WHO regions have reported cases of COVID-19."
+        "Es verbessert die Knochen- und Muskelkraft und erhöht das Gleichgewicht, die Flexibilität und die Fitness.",
+        "Regelmäßige körperliche Betätigung trägt bei Kindern zu einem gesunden Wachstum und einer gesunden Entwicklung bei und verringert das Krankheitsrisiko im späteren Leben. Durch regelmäßige Bewegung können Kinder grundlegende Bewegungsfähigkeiten entwickeln und soziale Beziehungen aufbauen.",
+        "Regelmäßige körperliche Betätigung verbessert die psychische Gesundheit und kann das Risiko von Depressionen und kognitivem Abbau verringern, den Ausbruch von Demenz verzögern und das allgemeine Wohlbefinden verbessern."
       ]
     },
     {
       "tag": "malaria interventions",
       "patterns": [
-        "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
-        "Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?",
-        "Should WHO-recommended preventive therapies be maintained in sub-Saharan Africa?"
+        "Sollten die wichtigsten Maßnahmen zur Bekämpfung von Malaria-Vektoren angesichts der raschen weltweiten Verbreitung von COVID-19 beibehalten werden?",
+        "Sollten die von der WHO empfohlenen präventiven Therapien in Subsahara Afrika beibehalten werden?"
       ],
       "response": [
-        "WHO strongly encourages countries not to suspend the planning for or implementation of vector control activities, including ITN and IRS campaigns, while ensuring these services are delivered using best practices to protect health workers and communities from COVID-19 infection.",
-        "Modifications of planned distribution strategies may be needed to minimize exposure to the coronavirus.",
-        "Yes, delivery of intermittent preventive treatment in pregnancy, seasonal malaria chemoprevention, and intermittent preventive treatment in infants should be maintained provided that best practices for protecting health workers and other front-line workers from COVID-19 are followed."
+        "Die WHO fordert die Länder nachdrücklich auf, die Planung und Durchführung von Vektorkontrollmaßnahmen, einschließlich ITN- und IRS-Kampagnen, nicht auszusetzen und gleichzeitig dafür zu sorgen, dass diese Dienste unter Anwendung bewährter Verfahren zum Schutz des Gesundheitspersonals und der Bevölkerung vor COVID-19-Infektionen erbracht werden.these services are delivered using best practices to protect health workers and communities from COVID-19 infection.",
+        "Möglicherweise müssen die geplanten Verteilungsstrategien geändert werden, um die Exposition gegenüber dem Coronavirus zu minimieren.",
+        "Ja, die intermittierende präventive Behandlung in der Schwangerschaft, die saisonale chemische Malariaprophylaxe und die intermittierende präventive Behandlung von Säuglingen sollten beibehalten werden, vorausgesetzt, dass die besten Praktiken zum Schutz des Gesundheitspersonals und anderer Mitarbeiter an vorderster Front vor COVID-19 eingehalten werden."
       ]
     },
     {
       "tag": "measures",
       "patterns": [
-        "What additional special measures may be needed in the context of COVID-19?"
+        "Welche zusätzlichen besonderen Maßnahmen könnten im Rahmen von COVID-19 erforderlich sein?",
+        "Welche zusätzlichen Maßnahmen brauchen wir für COVID-19?",
+        "Werden im Rahmen von COVID-19 zusätzliche Maßnahmen vorgeschlagen?"
       ],
       "response": [
-        "In addition to routine approaches to malaria control, there may be a case for special measures in the context of the COVID-19 pandemic such as a temporary return to presumptive malaria treatment.",
-        "The use of mass drug administration which have proved useful in some previous emergencies."
+        "Zusätzlich zu den routinemäßigen Ansätzen zur Malariabekämpfung könnten im Zusammenhang mit der COVID-19-Pandemie besondere Maßnahmen erforderlich sein, wie z. B. eine vorübergehende Rückkehr zur präsumtiven Malariabehandlung.",
+        "Der Einsatz von Massenmedikamenten, die sich in einigen früheren Notfällen als nützlich erwiesen haben."
       ]
     },
     {
       "tag": "spread",
       "patterns": [
-        "Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?"
+        "Warum ist die WHO besonders besorgt über die Verbreitung von COVID-19 in von Malaria betroffenen Gebieten?",
+        "Warum ist die Verbreitung von COVID-19 in von Malaria betroffenen Gebieten kritisch?"
       ],
       "response": [
-        "Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria.",
-        "The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.",
-        "In recent weeks, the COVID-19 pandemic has tested the resilience of robust health systems around the world."
+        "Die Erfahrungen mit früheren Krankheitsausbrüchen haben gezeigt, dass die Bereitstellung von Gesundheitsdiensten und die Folgen für Krankheiten wie Malaria gestört werden können.",
+        "Der Ebola-Ausbruch 2014-2016 in Guinea, Liberia und Sierra Leone untergrub beispielsweise die Bemühungen zur Malariabekämpfung und führte zu einem massiven Anstieg der malariabedingten Erkrankungen und Todesfälle in den drei Ländern.",
+        "Die COVID-19-Pandemie hat die Widerstandsfähigkeit der robusten Gesundheitssysteme in aller Welt auf die Probe gestellt."
       ]
     },
     {
       "tag": "consideration",
       "patterns": [
-        "What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?"
+        "Was sind die wichtigsten Überlegungen für Länder, die an der Beseitigung von Malaria arbeiten?",
+        "Was sind die wichtigsten Überlegungen für Länder, die daran arbeiten, die Wiederaufnahme der Übertragung zu verhindern?"
       ],
       "response": [
-        "Efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services.",
-        "Countries that are nearing malaria elimination must protect their important gains and avoid malaria resurgences.",
-        "Countries that have eliminated malaria must remain vigilant for any imported cases of malaria that may be occurring to prevent reintroduction of the disease."
+        "Die Anstrengungen zur Vorbeugung, Erkennung und Behandlung von Malariafällen müssen fortgesetzt werden, um die Ausbreitung von COVID-19 zu verhindern und die Sicherheit derjenigen zu gewährleisten, die diese Dienste erbringen.",
+        "Länder, die kurz vor der Eliminierung der Malaria stehen, müssen ihre wichtigen Errungenschaften schützen und ein Wiederaufflammen der Malaria verhindern.",
+        "Länder, die die Malaria eliminiert haben, müssen weiterhin auf importierte Fälle von Malaria achten, um eine Wiedereinschleppung der Krankheit zu verhindern."
       ]
     },
     {
       "tag": "WHO position",
       "patterns": [
-        "What is WHO's position on the use of chloroquine and hydroxychloroquine, antiretrovirals or corticosteroids in the context of the COVID-19 response?"
+        "Welchen Standpunkt vertritt die WHO zur Verwendung von Chloroquin und Hydroxychloroquin im Rahmen der COVID-19-Maßnahmen?", 
+        "Welchen Standpunkt vertritt die WHO in Bezug auf den Einsatz antiretroviraler Mittel im Rahmen der COVID-19-Maßnahmen?",
+        "Welchen Standpunkt vertritt die WHO zum Einsatz von Kortikosteroiden im Rahmen der COVID-19-Maßnahmen?"
       ],
       "response": [
-        "WHO is actively following the ongoing clinical trials that are being conducted in response to COVID-19, including studies looking at the use of chloroquine and its derivative, hydroxychloroquine, for treatment and prevention.",
-        "Currently, there is insufficient data to assess the effectiveness of this for treating COVID-19.",
-        "WHO has designed a set of procedures to assess the performance, quality and safety of medical technologies during emergency situations.",
-        "The current interim guidance from WHO on clinical management of severe acute respiratory infection when COVID-19 infection is suspected advises against the use of corticosteroids unless indicated for another reason."
+        "Die WHO verfolgt aktiv die laufenden klinischen Studien, die als Reaktion auf COVID-19 durchgeführt werden, darunter auch Studien, die den Einsatz von Chloroquin und seinem Derivat Hydroxychloroquin zur Behandlung und Prävention untersuchen.",
+        "Derzeit liegen keine ausreichenden Daten vor, um die Wirksamkeit dieses Mittels zur Behandlung von COVID-19 zu beurteilen.",
+        "Die WHO hat eine Reihe von Verfahren entwickelt, um die Leistung, Qualität und Sicherheit medizinischer Technologien in Notfallsituationen zu bewerten.",
+        "In den aktuellen vorläufigen Leitlinien der WHO zur klinischen Behandlung schwerer akuter Atemwegsinfektionen bei Verdacht auf eine COVID-19-Infektion wird von der Verwendung von Kortikosteroiden abgeraten, sofern sie nicht aus anderen Gründen angezeigt sind."
       ]
     },
     {
@@ -462,93 +427,77 @@
     {
       "tag": "pregnant women treatment",
       "patterns": [
-        "Should pregnant and breastfeeding women living with HIV with COVID-19 and their newborns be managed differently?",
-        "Are pregnant women at higher risk from COVID-19?",
-        "How can pregnant women protect themselves against COVID-19?",
-        "Can COVID-19 be passed from a woman to her unborn or newborn baby?",
-        "Can COVID-19 be passed from a woman to her unborn or newborn baby?",
-        "Should pregnant women be tested for COVID-19?"
+        "Sollten schwangere und stillende Frauen, die mit HIV und COVID-19 leben, und ihre Neugeborenen anders behandelt werden?",
+        "Besteht für schwangere Frauen ein höheres Risiko, an COVID-19 zu erkranken?",
+        "Wie können sich schwangere Frauen vor COVID-19 schützen?",
+        "Kann COVID-19 von einer Frau auf ihr ungeborenes oder neugeborenes Kind übertragen werden?",
+        "Sollten schwangere Frauen auf COVID-19 getestet werden?"
       ],
       "response": [
-        "WHO recommendations are that pregnant women with symptoms of COVID-19 should be prioritized for testing.",
-        "No difference is known for pregnant women for now",
-        "Research is currently underway to understand the impacts of COVID 19 infection on pregnant women.",
-        "Pregnant women should take the same precautions to avoid COVID-19 infection as other people.",
-        "It is still unknown if a pregnant woman with COVID-19 can pass the virus to her foetus or baby during pregnancy or delivery."
+        "Die WHO empfiehlt, dass schwangere Frauen mit Symptomen von COVID-19 vorrangig getestet werden sollten.",
+        "Für schwangere Frauen ist derzeit kein Unterschied bekannt.",
+        "Derzeit wird geforscht, um die Auswirkungen einer COVID 19-Infektion auf schwangere Frauen zu verstehen.",
+        "Schwangere Frauen sollten die gleichen Vorsichtsmaßnahmen ergreifen, um eine Infektion mit COVID-19 zu vermeiden wie andere Menschen.",
+        "Es ist noch nicht bekannt, ob eine schwangere Frau, die an COVID-19 erkrankt ist, das Virus während der Schwangerschaft oder der Geburt auf ihren Fötus oder ihr Baby übertragen kann."
       ]
     },
     {
       "tag": "smoker",
       "patterns": [
-        "Are smokers and tobacco users at higher risk of COVID-19 infection?"
+        "Besteht für Raucher und Tabakkonsumenten ein höheres Risiko einer COVID-19-Infektion?"
       ],
       "response": [
-        "Smoking products such as water pipes often involve the sharing of mouth pieces and hoses, which could facilitate the transmission of COVID-19 in communal and social settings.",
-        "Conditions that increase oxygen needs or reduce the ability of the body to use it properly will put patients at higher risk of serious lung conditions such as pneumonia."
-      ]
-    },
-    {
-      "tag": "pregnangt women care",
-      "patterns": [
-        "What care should be available during pregnancy and childbirth?"
-      ],
-      "response": [
-        "This includes antenatal, newborn, postnatal, intrapartum and mental health care."
-      ]
-    },
-    {
-      "tag": "birth",
-      "patterns": [
-        "Do pregnant women with suspected or confirmed COVID-19 need to give birth by caesarean section?"
-      ],
-      "response": [
-        "No. WHO advice is that caesarean sections should only be performed when medically justified."
+        "Beim Rauchen von Produkten wie Wasserpfeifen werden häufig Mundstücke und Schläuche gemeinsam benutzt, was die Übertragung von COVID-19 in gemeinschaftlichen und sozialen Umgebungen erleichtern könnte.",
+        "Erkrankungen, die den Sauerstoffbedarf erhöhen oder die Fähigkeit des Körpers, den Sauerstoff richtig zu nutzen, einschränken, setzen die Patienten einem höheren Risiko für schwere Lungenerkrankungen wie Lungenentzündung aus."
       ]
     },
     {
       "tag": "breastfeeding",
       "patterns": [
-        "Can women with COVID-19 breastfeed?",
-        "Can I touch, hold and breastfeed my newborn baby if I have COVID-19?"
+        "Können Frauen mit COVID-19 stillen?",
+        "Kann ich mein Neugeborenes anfassen, halten und stillen, wenn ich COVID-19 habe?"
       ],
       "response": [
-        "Yes. Women with COVID-19 can breastfeed if they wish to do so.",
-        "Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive."
+        "Ja. Frauen mit COVID-19 können stillen, wenn sie dies wünschen.",
+        "Ja. Enger Kontakt und frühes, ausschließliches Stillen tragen zum Gedeihen eines Babys bei."
       ]
     },
     {
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "How are you",
-        "Hello",
-        "Good day",
-        "Whats up",
-        "Is anyone there?",
-        "How are you doing?"
+        "Wie geht es dir?",
+        "Hallo",
+        "Servus",
+        "Was geht?",
+        "Ist jemand da?",
+        "Moin"
       ],
       "response": [
-        "Hello!",
-        "Good to see you",
-        "Hi there, how can I help you?",
-        "I'm good, and you?"
+        "Hallo!",
+        "Schön, dich zu sehen.",
+        "Hallo, wie kann ich Ihnen helfen?",
+        "Hallo, was kann ich für Sie tun?",
+        "Mir geht es gut, und Ihnen?",
+        "Guten Tag."
       ]
     },
     {
       "tag": "goodbye",
       "patterns": [
-        "cya",
-        "See you later",
-        "Goodbye",
-        "Hava a good day",
-        "Bye",
-        "Ciao"
+        "Tschüss",
+        "Bis dann",
+        "Bis Später",
+        "Wir sehen uns später",
+        "Ciao",
+        "Auf Wiedersehen"
       ],
       "response": [
-        "Sad to see you go :(",
-        "Talk to  you later",
-        "Goodbye!",
-        "Bye"
+        "Bis dann!",
+        "Bis später!",
+        "Tscüss!",
+        "Ciao!",
+        "Auf Wiedersehen"
       ]
     }
   ]
