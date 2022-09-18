@@ -1,0 +1,555 @@
+{
+  "intents": [
+    {
+      "tag": "protection",
+      "patterns": [
+        "Wie kann man eine Ansteckung vermeiden?",
+        "Wie kann ich mich schützen?",
+        "Gibt es einige Vorschläge für Leute während der COVID?",
+        "Was sollte man tun, um COVID zu verhindern?",
+        "Wie kann ich mein Kind vor einer COVID-19 Infektion schützen?",
+        "Wie bereite ich meine Kinder auf den Ausbruch von COVID-19 in unserer Gemeinde vor?",
+        "Wie kann ich helfen, mich zu schützen?",
+        "Welche Maßnahmen sollten Eltern ergreifen, um ihre Kinder zu schützen?",
+        "Wie können meine Familie und ich uns auf COVID-19 vorbereiten?",
+        "Welche Maßnahmen kann meine Familie ergreifen, um das Risiko einer Ansteckung mit COVID-19 zu verringern?",
+        "Wie kann ich meine Familie gesund erhalten?",
+        "Was kann ich tun, um mich zu schützen und die Verbreitung von Krankheiten zu verhindern?",
+        "Wie kann ich mich vor der Verbreitung von Krankheiten schützen?",
+        "Wie kann ich eine Infektion mit COVID-19 vermeiden?"
+      ],
+      "response": [
+        "Die wirksamsten Maßnahmen, um sich und andere vor COVID-19 zu schützen, sind häufiges Händewaschen und das Tragen von Moschus, wenn Sie ausgehen.",
+        "Halten Sie einen Abstand von mindestens 1 Meter zu hustenden oder niesenden Personen ein.",
+        "Bevor Sie die Maske berühren, reinigen Sie Ihre Hände mit einer alkoholhaltigen Handcreme oder mit Wasser und Seife.",
+        "Verwenden Sie alkoholhaltige Handreinigungsmittel oder waschen Sie Ihre Hände bei sichtbarer Verschmutzung mit Wasser und Seife.",
+        "Medizinische Einweggesichtsmasken sind nur für den einmaligen Gebrauch bestimmt. Nach dem Gebrauch sollten sie mit geeigneten Techniken entfernt werden.",
+        "Die folgenden Maßnahmen sind gegen COVID-2019 nicht wirksam: Rauchen, Tragen mehrerer MaskenEinnahme von Antibiotika. Sie sollten einen Abstand von mindestens 1 Meter zu hustenden oder niesenden Personen einhalten.",
+        "Masken sind ein wichtiges Mittel zum Schutz. Wenn Sie oder Ihre Familienmitglieder Fieber, Husten und Atembeschwerden haben, suchen Sie frühzeitig einen Arzt auf, um das Risiko einer schwereren Infektion zu verringern.",
+        "Masken sind ein wichtiger Bestandteil der Eindämmung der Ausbreitung von 2019-nCoV zwischen Menschen, zusammen mit anderen PSA und Handhygiene."
+      ]
+    },
+    {
+      "tag": "Animals",
+      "patterns": [
+        "Können sich Menschen mit COVID-19 aus einer tierischen Quelle infizieren?",
+        "Kann ich mich bei meinem Haustier mit COVID-19 anstecken?"
+      ],
+      "response": [
+        "Mögliche tierische Quellen von COVID-19 sind noch nicht bestätigt worden.",
+        "Es ist noch zu früh, um zu sagen, ob Tiere der Zwischenwirt bei der Übertragung von COVID-19 sein könnten."
+      ]
+    },
+    {
+      "tag": "gathering",
+      "patterns": [
+        "Wo kann ich Ratschläge zu Gesundheitsrisiken bei Massenveranstaltungen finden?",
+        "Was können wir tun, um das Risiko einer Ansteckung der Teilnehmer mit COVID-19 zu verringern, wenn wir eine Massenveranstaltung veranstalten?"
+      ],
+      "response": [
+        "Förderung des Händewaschens, der Atemwegshygiene und der sozialen Distanzierung bei der Veranstaltung.",
+        "Sie sollten überlegen, ob die Zahl der Teilnehmer an der Veranstaltung reduziert werden kann, indem die Teilnahme per Video- oder Telefonkonferenz ermöglicht wird.",
+        "Eventuell Screening der Teilnehmer auf COVID-19-Symptome an den Eintrittspunkten zum Veranstaltungsort.",
+        "Sie müssen den Ort und die Dauer der Veranstaltung sowie die Anzahl der Teilnehmer berücksichtigen.",
+        "Alle Länder sollten ernsthaft in Erwägung ziehen, Massenveranstaltungen, bei denen Menschen zusammenkommen und die das Potenzial haben, Krankheiten zu verstärken, zu verschieben oder zu reduzieren, und die empfohlene bewährte Praxis der räumlichen Distanzierung unterstützen."
+      ]
+    },
+    {
+      "tag": "source",
+      "patterns": [
+        "Was ist die Quelle von COVID-19?",
+        "Ist die Quelle des Coronavirus, das COVID-19 verursacht, bekannt?",
+        "Was ist die Quelle des Virus?"
+      ],
+      "response": [
+        "Das Virus, das COVID-19 verursacht, und das Virus, das den Ausbruch von SARS verursachte, sind genetisch miteinander verwandt.",
+        "Derzeit ist die Quelle von SARS-CoV-2, dem Coronavirus (CoV), das COVID-19 verursacht, unbekannt.",
+        "Alle verfügbaren Erkenntnisse deuten darauf hin, dass SARS-CoV-2 einen natürlichen tierischen Ursprung hat und kein konstruiertes Virus ist.",
+        "Das SARS-CoV-2-Virus hat sein ökologisches Reservoir höchstwahrscheinlich in Fledermäusen."
+      ]
+    },
+    {
+      "tag": "incubation",
+      "patterns": [
+        "Wie lange ist die Inkubationszeit für COVID-19?",
+        "Wie lange kann das Virus auf Oberflächen überleben?",
+        "Ist es sicher, ein Paket aus einem Gebiet zu erhalten, in dem COVID-19 gemeldet wurde?"
+      ],
+      "response": [
+        "Die meisten Schätzungen der Inkubationszeit für COVID-19 liegen bei zwei Wochen, in der Regel bei fünf Tagen. Die Wahrscheinlichkeit, dass eine infizierte Person Handelswaren kontaminiert, ist gering.",
+        "Studien haben gezeigt, dass Coronaviren stunden bis tagelang auf Oberflächen überleben können.",
+        "Dies kann unter verschiedenen Bedingungen variieren.",
+        "Derzeit gibt es keine Daten zur Stabilität von 2019-nCoV auf Oberflächen.",
+        "Die WHO beobachtet weiterhin die vorhandenen Erkenntnisse über nCoV und wird diese aktualisieren, sobald sie vorliegen."
+      ]
+    },
+    {
+      "tag": "cleaning",
+      "patterns": [
+        "Wie reinigt man verschmutzte Kleidung von Patienten mit COVID-19?",
+        "Wie kann man verschmutzte Wäsche am besten reinigen?",
+        "Wie soll ich meine schmutzige Wäsche waschen?",
+        "Was wird zum Waschen und Desinfizieren von Gegenständen empfohlen?",
+        "Welche Desinfektionsmittel werden für die Reinigung empfohlen?"
+      ],
+      "response": [
+        "Zur Reinigung und Desinfektion der Wäsche wird die Maschinenwäsche mit warmem Wasser und Waschmittel empfohlen.",
+        "Leinen kann in einer großen Trommel in heißem Wasser und Seife eingeweicht werden, wobei ein Stock zum Umrühren verwendet wird, um Spritzer zu vermeiden.",
+        "Weichen Sie die Wäsche etwa 30 Minuten lang in 0,05%igem Chlor ein.",
+        "Mit klarem Wasser ausspülen und die Wäsche an der Sonne vollständig trocknen lassen.",
+        "Es gibt viele Desinfektionsmittel, einschließlich der häufig verwendeten Krankenhausdesinfektionsmittel, die gegen behüllte Viren wirksam sind.",
+        "Bei der Umgebungsreinigung sollten Desinfektionsmittel verwendet werden, die gegen behüllte Viren wirksam sind."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "Gibt es einen Impfstoff, ein Medikament oder eine Behandlung für COVID-19?"
+      ],
+      "response": [
+        "Bisher gibt es weder einen Impfstoff noch ein spezifisches antivirales Medikament zur Vorbeugung oder Behandlung von COVID-2019.",
+        "Die meisten Patienten erholen sich dank der unterstützenden Pflege.",
+        "Die WHO koordiniert die Bemühungen zur Entwicklung von Impfstoffen und Medikamenten zur Vorbeugung und Behandlung von COVID-19."
+      ]
+    },
+    {
+      "tag": "patient",
+      "patterns": [
+        "Müssen Patienten mit Verdacht oder Bestätigung einer leichten Erkrankung ins Krankenhaus eingewiesen werden?",
+        "Wie kann man die Krankheit am besten behandeln?",
+        "Was sollte ich nach der Diagnose tun?"
+      ],
+      "response": [
+        "Bei Patienten mit leichteren Erkrankungen ist ein Krankenhausaufenthalt möglicherweise nicht erforderlich, es sei denn, es besteht die Gefahr einer raschen klinischen Verschlechterung.",
+        "Im Idealfall sollten Patienten mit Verdacht auf eine 2019-nCoV-acure Atemwegserkrankung in Einzelzimmern isoliert werden."
+      ]
+    },
+    {
+      "tag": "transmisson",
+      "patterns": [
+        "Wie verbreitet sich das neue Coronavirus?",
+        "Wie verbreitet sich das Virus?",
+        "Wie wird COVID-19 verbreitet?",
+        "Besteht bei mir ein Risiko für COVID-19 durch eine Verpackung oder ein Produkt?",
+        "Können Stechmücken oder Zecken das Virus, das COVID-19 verursacht, übertragen?",
+        "Kann jemand, der an COVID-19 erkrankt ist, die Krankheit auf andere übertragen?",
+        "Kann das Coronavirus über Lebensmittel verbreitet werden?",
+        "Werde ich krank, wenn sich das COVID-19-Virus auf meinem Essen befindet?"
+      ],
+      "response": [
+        "Das Virus, das COVID-19 verursacht, wird hauptsächlich durch Tröpfchen übertragen, die entstehen, wenn eine infizierte Person hustet, niest oder spricht.",
+        "Diese Beweise zeigen, dass das Virus durch Tröpfchen und Kontakt mit kontaminierten Oberflächen von Geräten übertragen wird.",
+        "Das Virus, das COVID-19 verursacht, wird von Mensch zu Mensch übertragen. Man geht davon aus, dass Menschen am ansteckendsten sind, wenn sie Symptome haben (am kränksten sind). ",
+        "Es wird angenommen, dass das Virus, das COVID-19 verursacht, hauptsächlich von Mensch zu Mensch übertragen wird, vor allem durch Tröpfchen in der Atemluft, die entstehen, wenn eine infizierte Person hustet oder niest. ",
+        "Es wird allgemein angenommen, dass Coronaviren durch Tröpfcheninfektion von Mensch zu Mensch übertragen werden. Derzeit gibt es keine Anhaltspunkte für eine Übertragung von COVID-19 durch Lebensmittel, Zecken oder andere Dinge. ",
+        "Nach den bisherigen Informationen über dieses neuartige Coronavirus scheint es unwahrscheinlich, dass COVID-19 durch Lebensmittel, Mücken oder andere Dinge, sondern durch Menschen übertragen werden kann.",
+        "Derzeit liegen der CDC keine Daten vor, die darauf hindeuten, dass dieses neue Coronavirus oder andere ähnliche Coronaviren durch Lebensmittel, Stechmücken oder andere Dinge verbreitet werden. COVID-19 wird hauptsächlich von Mensch zu Mensch übertragen. ",
+        "Es wird angenommen, dass dieses Coronavirus am häufigsten durch Tröpfcheninfektion der Atemwege verbreitet wird. Derzeit gibt es keine Beweise für eine Übertragung von COVID-19 durch importierte Waren oder andere Dinge."
+      ]
+    },
+    {
+      "tag": "mask",
+      "patterns": [
+        "Sollte ich eine Maske tragen, um mich zu schützen?",
+        "Sollten Kinder Masken tragen?",
+        "Empfiehlt die CDC die Verwendung eines Mundschutzes?"
+      ],
+      "response": [
+        "Die CDC empfiehlt, dass alle Personen ab 2 Jahren einen Gesichtsschutz aus Stoff tragen, der Nase und Mund bedeckt, wenn sie sich in der Öffentlichkeit aufhalten. "
+      ]
+    },
+    {
+      "tag": "school",
+      "patterns": [
+        "Wie kann ich meinem Kind helfen, weiter zu lernen, während die Schule ausfällt?",
+        "Werden die Kinder während der Schulzeit Zugang zu Mahlzeiten haben?",
+        "Wie kann ich mich auf den Fall vorbereiten, dass die Schule, die Kinderbetreuungseinrichtung oder die Universität meines Kindes geschlossen wird?"
+      ],
+      "response": [
+        "Bleiben Sie in Kontakt mit der Schule Ihres Kindes.",
+        "Erkundigen Sie sich bei Ihrer Schule nach den Plänen.",
+        "Sprechen Sie mit der Schule oder Einrichtung über ihren Notfallplan."
+      ]
+    },
+    {
+      "tag": "warm",
+      "patterns": [
+        "Wird das warme Wetter den Ausbruch von COVID-19 aufhalten?",
+        "Welche Temperatur tötet das Virus, das COVID-19 verursacht?"
+      ],
+      "response": [
+        "Es ist noch nicht bekannt, ob Wetter und Temperatur die Verbreitung von COVID-19 beeinflussen.",
+        "Im Allgemeinen überleben Coronaviren bei höheren Temperaturen und höherer Luftfeuchtigkeit kürzer als in kühleren oder trockeneren Umgebungen.",
+        "Wir haben keine direkten Daten für dieses Virus, und wir haben auch keine direkten Daten für einen temperaturbasierten Grenzwert für die Inaktivierung zu diesem Zeitpunkt."
+      ]
+    },
+    {
+      "tag": "basics",
+      "patterns": [
+        "Was ist das Coronavirus?",
+        "Warum wird die Krankheit COVID-19 genannt?",
+        "Was ist COVID-19?"
+      ],
+      "response": [
+        "Ein neuartiges Coronavirus ist ein neues Coronavirus. Das Virus, das die Coronavirus-Krankheit 2019 auslöst, ist nicht dasselbe wie die Coronaviren, die häufig unter Menschen zirkulieren und leichte Krankheiten wie Erkältungen verursachen.",
+        "COVID-19 wird durch ein Coronavirus namens SARS-CoV-2 verursacht. Coronaviren sind eine große Familie von Viren, die bei Menschen und vielen verschiedenen Tierarten, darunter Kamele, Rinder, Katzen und Fledermäuse, verbreitet sind.",
+        "Die neue Bezeichnung für diese Krankheit lautet Coronavirus-Krankheit 2019, abgekürzt COVID-19.",
+        "In COVID-19 steht 'CO' für 'Corona', 'VI' für 'Virus' und 'D' für 'Krankheit'."
+      ]
+    },
+    {
+      "tag": "outbreak",
+      "patterns": [
+        "Was sollte ich tun, wenn es in meiner Gemeinde zu einem Ausbruch kommt?",
+        "Sollte ich zur Arbeit gehen, wenn es in meiner Gemeinde einen Ausbruch gibt?",
+        "Was kann ich tun, wenn es in meiner Gemeinde zu einem Ausbruch kommt?",
+        "Wie geht man mit einem Ausbruch von Covid-19 um?"
+      ],
+      "response": [
+        "Bleiben Sie während eines Ausbruchs ruhig und setzen Sie Ihren Bereitschaftsplan in die Tat um.",
+        "Befolgen Sie den Rat der örtlichen Gesundheitsbehörden. Bleiben Sie zu Hause, wenn Sie können. Arbeitgeber sollten sich darüber im Klaren sein, dass möglicherweise mehr Arbeitnehmer zu Hause bleiben müssen, um sich um kranke Kinder oder andere kranke Familienmitglieder zu kümmern, als dies bei einem Ausbruch der Krankheit in der Gemeinde üblich ist.",
+        "Je nach Situation können Sie sich an die örtlichen Behörden wenden, um Ratschläge für den Umgang mit Ausbrüchen zu erhalten."
+      ]
+    },
+    {
+      "tag": "covid-test",
+      "patterns": [
+        "Wie kann ich mich auf COVID-19 testen lassen?",
+        "Was muss ich tun, wenn ich einen Test für COVID-19 machen möchte?"
+      ],
+      "response": [
+        "Das Verfahren und die Orte, an denen Tests durchgeführt werden, variieren von Ort zu Ort. Wenden Sie sich an Ihre staatliche, lokale, stammesbezogene oder territoriale Behörde, um weitere Informationen zu erhalten, oder wenden Sie sich an einen medizinischen Anbieter.",
+        "Das Covid-19 erhalten Sie in den örtlichen Testzentren oder Sie können die Selbsttestsets kaufen."
+      ]
+    },
+    {
+      "tag": "CDC",
+      "patterns": [
+        "Was sollten Angehörige der Gesundheitsberufe und Gesundheitsämter wie die CDC tun?",
+        "Was unternimmt die CDC gegen COVID-19?"
+      ],
+      "response": [
+        "Für Empfehlungen und Hinweise zu Personen, gegen die ermittelt wird.",
+        "Infektionskontrolle, einschließlich Anleitung zur persönlichen Schutzausrüstung.",
+        "Häusliche Pflege und Isolierung sowie Untersuchung von Fällen.",
+        "Die CDC arbeitet mit anderen Bundespartnern an einer regierungsübergreifenden Reaktion.",
+        "Die CDC arbeitet rund um die Uhr, um die Gesundheit der Menschen zu schützen."
+      ]
+    },
+    {
+      "tag": "contact with pets and animals",
+      "patterns": [
+        "Sollte ich den Kontakt mit Haustieren oder anderen Tieren vermeiden, wenn ich an COVID-19 erkrankt bin?",
+        "Kann ich COVID-19 von meinen Haustieren oder anderen Tieren bekommen?"
+      ],
+      "response": [
+        "Sie sollten den Kontakt mit Haustieren und anderen Tieren einschränken, solange Sie an COVID-19 erkrankt sind.",
+        "Es wird empfohlen, dass Personen, die an COVID-19 erkrankt sind, den Kontakt mit Tieren einschränken, bis mehr Informationen über das neue Coronavirus vorliegen.",
+        "Wenn Sie an COVID-19 erkrankt sind, sollten Sie den Kontakt mit Ihrem Haustier vermeiden, z. B. durch Streicheln, Kuscheln, Küssen oder Ablecken und gemeinsames Essen.",
+        "Derzeit gibt es keine Hinweise darauf, dass das Virus, das COVID-19 verursacht, über die Haut oder das Fell von Haustieren auf Menschen übertragen werden kann."
+      ]
+    },
+    {
+      "tag": "necessity of covid-test",
+      "patterns": [
+        "Sollte ich mich auf COVID-19 testen lassen?",
+        "Warum sollte man einen Test auf Covid-19 machen?"
+      ],
+      "response": [
+        "Nicht jeder muss sich auf COVID-19 testen lassen."
+      ]
+    },
+    {
+      "tag": "people with high risk for serioius illness",
+      "patterns": [
+        "Für wen besteht ein erhöhtes Risiko einer schweren Erkrankung durch COVID-19?",
+        "Welche Personen sind am ehesten gefährdet, durch COVID-19 ernsthaft zu erkranken?",
+        "Wer ist gefährdet, eine schwere Krankheit zu entwickeln?"
+      ],
+      "response": [
+        "Nach heutigem Kenntnisstand besteht für die folgenden Personen ein hohes Risiko, an COVID-19 schwer zu erkranken: Menschen im Alter von 65 Jahren und älter.",
+        "Menschen, die in einem Pflegeheim oder einer Langzeitpflegeeinrichtung leben.",
+        "Menschen jeden Alters mit Grunderkrankungen, insbesondere wenn diese nicht gut kontrolliert sind.",
+        "Menschen mit chronischen Lungenerkrankungen oder mittelschwerem bis schwerem Asthma.",
+        "Menschen, die an schweren Herzerkrankungen leiden.",
+        "Menschen, die immungeschwächt sind.",
+        "Menschen mit schwerer Fettleibigkeit.",
+        "Menschen mit Diabetes.",
+        "Menschen mit chronischen Nierenerkrankungen, die sich einer Dialyse unterziehen.",
+        "Menschen mit Lebererkrankungen."
+      ]
+    },
+    {
+      "tag": "symptoms of COVID-19",
+      "patterns": [
+        "Was sind die Symptome von COVID-19?",
+        "Welche Symptome und Komplikationen kann COVID-19 verursachen?"
+      ],
+      "response": [
+        "Die häufigsten Symptome von COVID-19 sind Fieber, Müdigkeit und trockener Husten.",
+        "Einige Patienten können unter Schmerzen, verstopfter Nase, laufender Nase, Halsschmerzen oder Durchfall leiden.",
+        "Manche Menschen infizieren sich, entwickeln aber keine Symptome und fühlen sich nicht unwohl.",
+        "Zu den aktuellen Symptomen, die bei Patienten mit COVID-19 gemeldet wurden, gehörten leichte bis schwere Atemwegserkrankungen mit Fieber1, Husten und Atembeschwerden."
+      ]
+    },
+    {
+      "tag": "import of animals",
+      "patterns": [
+        "Was ist mit importierten Tieren oder tierischen Produkten?",
+        "Kann ich während des COVID-19-Ausbruchs mit Hunden reisen oder Hunde importieren?"
+      ],
+      "response": [
+        "Bitte beachten Sie die Anforderungen der CDC für das Mitbringen von Tieren. Für Tiere, die aus einem Hochrisikoland für Tollwut importiert werden, gelten die aktuellen Anforderungen an die Tollwutimpfung."
+      ]
+    },
+    {
+      "tag": "risk of infection contacting with dead people",
+      "patterns": [
+        "Bin ich gefährdet, wenn ich zu einer Beerdigung oder einem Besuchsdienst für jemanden gehe, der an COVID-19 gestorben ist?",
+        "Bin ich gefährdet, wenn ich jemanden berühre, der an COVID-19 gestorben ist, nachdem er verstorben ist?"
+      ],
+      "response": [
+        "Es ist derzeit kein bekanntes Risiko damit verbunden, bei einer Beerdigung oder einem Besuchsdienst mit der Leiche einer an COVID-19 verstorbenen Person im selben Raum zu sein.",
+        "COVID-19 ist eine neue Krankheit und wir lernen immer noch, wie sie sich ausbreitet. Es wird angenommen, dass sich das Virus, das COVID-19 verursacht, hauptsächlich durch engen Kontakt mit einer Person verbreitet, die derzeit an COVID-19 erkrankt ist. Diese Art der Ausbreitung ist nach dem Tod kein Problem."
+      ]
+    },
+    {
+      "tag": "isolation treatments",
+      "patterns": [
+        "Gibt es ein Muster für die Einrichtung einer Isolierstation und Typen und Produkte und Gesundheitsanforderungen?"
+      ],
+      "response": [
+        "Ein Modell zur Einrichtung einer Isolierstation wird derzeit entwickelt."
+      ]
+    },
+    {
+      "tag": "Chlorine",
+      "patterns": [
+        "Können Chlorlösungen verwendet werden?"
+      ],
+      "response": [
+        "Von Chlorlösungen wird dringend abgeraten, da sie ein höheres Risiko für Handreizungen und Gesundheitsschäden durch die Herstellung und Verdünnung von Chlorlösungen, einschließlich Augenreizungen und Atemproblemen, bergen.",
+        "Nein, es besteht die Gefahr, dass die antimikrobielle Wirkung verloren geht, wenn sie Sonnenlicht oder Hitze ausgesetzt werden."
+      ]
+    },
+    {
+      "tag": "anti-epidemic measures",
+      "patterns": [
+        "Können antiretrovirale Medikamente zur Behandlung von COVID-19 eingesetzt werden?",
+        "Können antiretrovirale Medikamente zur Vorbeugung einer COVID-19-Infektion eingesetzt werden?"
+      ],
+      "response": [
+        "Während die Evidenz für den Nutzen der Anwendung antiretroviraler Medikamente zur Behandlung von Coronavirus-Infektionen von sehr geringer Sicherheit ist, traten schwerwiegende Nebenwirkungen selten auf.",
+        "Zwei Studien haben positive Ergebnisse der Verwendung von LPV als Post-Expositions-Prophylaxe für SARS-CoV und MERS-CoV berichtet. Die Vertrauenswürdigkeit der Evidenz ist jedoch aufgrund der geringen Stichprobengröße, der Variabilität der bereitgestellten Medikamente und der Ungewissheit hinsichtlich der Intensität der Exposition sehr gering."
+      ]
+    },
+    {
+      "tag": "plan",
+      "patterns": [
+        "Welche Studien zur Behandlung und Prävention von COVID-19 mit antiretroviralen Medikamenten sind geplant?"
+      ],
+      "response": [
+        "Mehrere randomisierte Studien sind geplant, um die Sicherheit und Wirksamkeit der Verwendung von antiretroviralen Medikamenten zur Behandlung von COVID-19 in Kombination mit anderen Medikamenten zu bewerten."
+      ]
+    },
+    {
+      "tag": "physical health",
+      "patterns": [
+        "Was ist körperliche Aktivität?",
+        "Warum brauchen wir körperliche Aktivität?",
+        "Wie viel körperliche Aktivität wird empfohlen?",
+        "Wie bleibe ich also sicher, während ich in COVID-19 trainiere?",
+        "Wie bleibe ich in und um das Haus aktiv?"
+      ],
+      "response": [
+        "Körperliche Aktivität umfasst alle Formen der aktiven Erholung, sportliche Betätigung, Radfahren und Wandern sowie Aktivitäten, die Sie bei der Arbeit, in Haus und Garten ausüben.",
+        "Regelmäßige körperliche Aktivität kommt sowohl dem Körper als auch dem Geist zugute. Sie kann Bluthochdruck senken, das Gewicht kontrollieren und das Risiko von Herzerkrankungen, Schlaganfällen, Typ-2-Diabetes und verschiedenen Krebsarten verringern.",
+        "Es verbessert die Knochen- und Muskelkraft und erhöht das Gleichgewicht, die Flexibilität und die Fitness.",
+        "Bei älteren Menschen helfen Aktivitäten zur Verbesserung des Gleichgewichts, Stürzen und Verletzungen vorzubeugen.",
+        "Für Kinder hilft regelmäßige körperliche Aktivität, ein gesundes Wachstum und eine gesunde Entwicklung zu unterstützen und das Krankheitsrisiko im späteren Leben zu verringern, und durch regelmäßige Aktivität können Kinder grundlegende Bewegungsfähigkeiten entwickeln und soziale Beziehungen aufbauen.",
+        "Regelmäßige körperliche Aktivität verbessert die psychische Gesundheit und kann das Risiko von Depressionen und kognitivem Verfall verringern und den Beginn von Demenz verzögern - und das allgemeine Wohlbefinden verbessern."
+      ]
+    },
+    {
+      "tag": "physical health recommendation",
+      "patterns": [
+        "Wie viel körperliche Aktivität wird empfohlen?",
+        "Wie bleibe ich beim Sport in COVID-19 sicher?",
+        "Wie bleibe ich in und um das Haus aktiv?"
+      ],
+      "response": [
+        "Kleinkinder unter 1 Jahr müssen mehrmals am Tag körperlich aktiv sein.",
+        "Kinder unter 5 Jahren sollten täglich mindestens 180 Minuten körperlich aktiv sein, wobei 3- bis 4-Jährige eine Stunde täglich mäßig oder intensiv aktiv sein sollten.",
+        "Ältere Erwachsene mit eingeschränkter Mobilität sollten sich an 3 oder mehr Tagen pro Woche körperlich betätigen, um das Gleichgewicht zu verbessern und Stürze zu vermeiden.",
+        "Trainieren Sie nicht, wenn Sie Fieber, Husten und Atembeschwerden haben. Bleiben Sie zu Hause und ruhen Sie sich aus, suchen Sie einen Arzt auf und rufen Sie im Voraus an."
+      ]
+    },
+    {
+      "tag": "malaria report",
+      "patterns": [
+        "Wie viele von Malaria betroffene Länder haben Fälle von COVID-19 gemeldet?"
+      ],
+      "response": [
+        "Malaria-endemische Länder in allen WHO-Regionen haben Fälle von COVID-19 gemeldet."
+      ]
+    },
+    {
+      "tag": "malaria interventions",
+      "patterns": [
+        "Sollten angesichts der raschen weltweiten Ausbreitung von COVID-19 Maßnahmen zur Bekämpfung des Malaria-Überträgers beibehalten werden?",
+         "Sollten angesichts der raschen weltweiten Ausbreitung von COVID-19 Maßnahmen zur Bekämpfung des Malaria-Überträgers beibehalten werden?",
+         "Sollten die von der WHO empfohlenen präventiven Therapien in Subsahara-Afrika beibehalten werden?"
+      ],
+      "response": [
+        "Die WHO ermutigt die Länder nachdrücklich, die Planung oder Umsetzung von Aktivitäten zur Vektorkontrolle, einschließlich ITN- und IRS-Kampagnen, nicht auszusetzen und gleichzeitig sicherzustellen, dass diese Dienste unter Anwendung bewährter Verfahren erbracht werden, um das Gesundheitspersonal und die Gemeinschaften vor einer COVID-19-Infektion zu schützen.",
+        "Änderungen geplanter Vertriebsstrategien können erforderlich sein, um die Exposition gegenüber dem Coronavirus zu minimieren.",
+        "Ja, die intermittierende vorbeugende Behandlung in der Schwangerschaft, die saisonale Malaria-Chemoprävention und die intermittierende vorbeugende Behandlung bei Säuglingen sollten beibehalten werden, vorausgesetzt, dass die bewährten Verfahren zum Schutz des Gesundheitspersonals und anderer Mitarbeiter an vorderster Front vor COVID-19 befolgt werden."
+      ]
+    },
+    {
+      "tag": "measures",
+      "patterns": [
+        "Welche zusätzlichen besonderen Maßnahmen können im Zusammenhang mit COVID-19 erforderlich sein?"
+      ],
+      "response": [
+        "Zusätzlich zu routinemäßigen Ansätzen zur Malariakontrolle kann es im Zusammenhang mit der COVID-19-Pandemie einen Grund für besondere Maßnahmen geben, wie z. B. eine vorübergehende Rückkehr zur präsumtiven Malariabehandlung.",
+        "Der Einsatz von Massenverabreichung von Medikamenten, die sich in einigen früheren Notfällen als nützlich erwiesen haben."
+      ]
+    },
+    {
+      "tag": "spread",
+      "patterns": [
+        "Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?"
+      ],
+      "response": [
+        "Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria.",
+        "The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.",
+        "In recent weeks, the COVID-19 pandemic has tested the resilience of robust health systems around the world."
+      ]
+    },
+    {
+      "tag": "consideration",
+      "patterns": [
+        "What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?"
+      ],
+      "response": [
+        "Efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services.",
+        "Countries that are nearing malaria elimination must protect their important gains and avoid malaria resurgences.",
+        "Countries that have eliminated malaria must remain vigilant for any imported cases of malaria that may be occurring to prevent reintroduction of the disease."
+      ]
+    },
+    {
+      "tag": "WHO position",
+      "patterns": [
+        "What is WHO's position on the use of chloroquine and hydroxychloroquine, antiretrovirals or corticosteroids in the context of the COVID-19 response?"
+      ],
+      "response": [
+        "WHO is actively following the ongoing clinical trials that are being conducted in response to COVID-19, including studies looking at the use of chloroquine and its derivative, hydroxychloroquine, for treatment and prevention.",
+        "Currently, there is insufficient data to assess the effectiveness of this for treating COVID-19.",
+        "WHO has designed a set of procedures to assess the performance, quality and safety of medical technologies during emergency situations.",
+        "The current interim guidance from WHO on clinical management of severe acute respiratory infection when COVID-19 infection is suspected advises against the use of corticosteroids unless indicated for another reason."
+      ]
+    },
+    {
+      "tag": "antiretrovirals",
+      "patterns": [
+        "If countries use antiretrovirals for COVID-19, are there concerns about treatment shortages for people living with HIV?"
+      ],
+      "response": [
+        "Any country that allows the use of HIV medicines for the treatment of COVID-19 must ensure that an adequate and sustainable supply is in place."
+      ]
+    },
+    {
+      "tag": "pregnant women treatment",
+      "patterns": [
+        "Should pregnant and breastfeeding women living with HIV with COVID-19 and their newborns be managed differently?",
+        "Are pregnant women at higher risk from COVID-19?",
+        "How can pregnant women protect themselves against COVID-19?",
+        "Can COVID-19 be passed from a woman to her unborn or newborn baby?",
+        "Can COVID-19 be passed from a woman to her unborn or newborn baby?",
+        "Should pregnant women be tested for COVID-19?"
+      ],
+      "response": [
+        "WHO recommendations are that pregnant women with symptoms of COVID-19 should be prioritized for testing.",
+        "No difference is known for pregnant women for now",
+        "Research is currently underway to understand the impacts of COVID 19 infection on pregnant women.",
+        "Pregnant women should take the same precautions to avoid COVID-19 infection as other people.",
+        "It is still unknown if a pregnant woman with COVID-19 can pass the virus to her foetus or baby during pregnancy or delivery."
+      ]
+    },
+    {
+      "tag": "smoker",
+      "patterns": [
+        "Are smokers and tobacco users at higher risk of COVID-19 infection?"
+      ],
+      "response": [
+        "Smoking products such as water pipes often involve the sharing of mouth pieces and hoses, which could facilitate the transmission of COVID-19 in communal and social settings.",
+        "Conditions that increase oxygen needs or reduce the ability of the body to use it properly will put patients at higher risk of serious lung conditions such as pneumonia."
+      ]
+    },
+    {
+      "tag": "pregnangt women care",
+      "patterns": [
+        "What care should be available during pregnancy and childbirth?"
+      ],
+      "response": [
+        "This includes antenatal, newborn, postnatal, intrapartum and mental health care."
+      ]
+    },
+    {
+      "tag": "birth",
+      "patterns": [
+        "Do pregnant women with suspected or confirmed COVID-19 need to give birth by caesarean section?"
+      ],
+      "response": [
+        "No. WHO advice is that caesarean sections should only be performed when medically justified."
+      ]
+    },
+    {
+      "tag": "breastfeeding",
+      "patterns": [
+        "Can women with COVID-19 breastfeed?",
+        "Can I touch, hold and breastfeed my newborn baby if I have COVID-19?"
+      ],
+      "response": [
+        "Yes. Women with COVID-19 can breastfeed if they wish to do so.",
+        "Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Is anyone there?",
+        "How are you doing?"
+      ],
+      "response": [
+        "Hello!",
+        "Good to see you",
+        "Hi there, how can I help you?",
+        "I'm good, and you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "Hava a good day",
+        "Bye",
+        "Ciao"
+      ],
+      "response": [
+        "Sad to see you go :(",
+        "Talk to  you later",
+        "Goodbye!",
+        "Bye"
+      ]
+    }
+  ]
+}
