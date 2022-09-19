@@ -12,25 +12,25 @@ dialogue can take place between the user and the bot. For this reason, we will i
 questions into the system as well, such as greetings.  
 
 ## 2. Why do we choose this topic?  
-COVID-19 has made a huge impact on people’s lives. It is very important to know how to properly understand
+&ensp; COVID-19 has made a huge impact on people’s lives. It is very important to know how to properly understand
 COVID-19. However, many people do not have the time to read a lot of information about it. We hope that, with this
 chatbot, people can get informations quickly, easily, and efficiently.  
-What’s more, the existing chatbots lack in conversational context, so we’re going to create a chatbot framework and
+&ensp; What’s more, the existing chatbots lack in conversational context, so we’re going to create a chatbot framework and
 build a conversational model for promoting COVID-19 information.  
-It is also interesting to learn how to incorporate deep learning techniques in NLP so that it is possible to find the most
+&ensp; It is also interesting to learn how to incorporate deep learning techniques in NLP so that it is possible to find the most
 appropriate answer for a given question. This can be very helpful for those seeking information about a particular topic
 (in our case information about COVID-19).  
 
 ## 3. How to make a COVID-Chatbot?  
 **Preparing dataset for NLP**  
-To train a Deep learning NLP network in supervised mode, we need labeled dataset, so as the chatbot seq2seq model
+&ensp; To train a Deep learning NLP network in supervised mode, we need labeled dataset, so as the chatbot seq2seq model
 will learn how to process questions and generate corresponding answers.  
 **Recurrent neural networks (RNN) or CNN**  
-RNN neuron uses its internal memory to maintain information about the previous inputs and update the hidden states
+&ensp; RNN neuron uses its internal memory to maintain information about the previous inputs and update the hidden states
 accordingly, which allows them to make predictions for every element of a sequence. Convolutional neural networks
 applied to encoder-decoder models.  
 **Seq2Seq model**  
-Many tasks in NLP can be performed using a Seq2Seq mapping models: machine translation, summarization, question
+&ensp; Many tasks in NLP can be performed using a Seq2Seq mapping models: machine translation, summarization, question
 answering, and many more. An Encoder-Decoder model for recurrent neural networks is an architecture for sequence-to-
 sequence prediction problems in the field of natural language processing NLP, it takes a sequence as input and generates
 another sequence as output, It is comprised of two sub-modules, encoder and decoder.  
