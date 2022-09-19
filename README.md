@@ -22,7 +22,7 @@ appropriate answer for a given question. This can be very helpful for those seek
 (in our case information about COVID-19).  
 
 ## 3. How to make a COVID-Chatbot?  
-Preparing dataset for NLP  
+**Preparing dataset for NLP**  
 To train a Deep learning NLP network in supervised mode, we need labeled dataset, so as the chatbot seq2seq model
 will learn how to process questions and generate corresponding answers.  
 Recurrent neural networks (RNN) or CNN  
