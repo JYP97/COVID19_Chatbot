@@ -25,16 +25,16 @@ appropriate answer for a given question. This can be very helpful for those seek
 **Preparing dataset for NLP**  
 To train a Deep learning NLP network in supervised mode, we need labeled dataset, so as the chatbot seq2seq model
 will learn how to process questions and generate corresponding answers.  
-Recurrent neural networks (RNN) or CNN  
+**Recurrent neural networks (RNN) or CNN**  
 RNN neuron uses its internal memory to maintain information about the previous inputs and update the hidden states
 accordingly, which allows them to make predictions for every element of a sequence. Convolutional neural networks
 applied to encoder-decoder models.  
-Seq2Seq model  
+**Seq2Seq model**  
 Many tasks in NLP can be performed using a Seq2Seq mapping models: machine translation, summarization, question
 answering, and many more. An Encoder-Decoder model for recurrent neural networks is an architecture for sequence-to-
 sequence prediction problems in the field of natural language processing NLP, it takes a sequence as input and generates
 another sequence as output, It is comprised of two sub-modules, encoder and decoder.  
-Concrete steps:
+**Concrete steps:**
 1. Firstly, we will have a look at two datasets for our COVID-chatbot. After that we gonna transform those dataset into JSON format for our
 purpose.  
 2. Next, we will build a chatbot framework to process responses. In this step, we will pre-process the data using NLP
