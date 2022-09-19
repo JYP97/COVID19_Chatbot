@@ -1,12 +1,8 @@
-import nltk
 import numpy as np
-# from nltk.stem.lancaster import LancasterStemmer
-# from nltk.stem.snowball import GermanStemmer
 from nltk.stem import SnowballStemmer
 import spacy
 
 nlp = spacy.load('de_core_news_sm')
-# stemmer = LancasterStemmer()
 st = SnowballStemmer("german")
 import tflearn
 import tensorflow as tf
@@ -67,21 +63,21 @@ except:
     with open("data_de.pickle", "wb") as f:
         pickle.dump((words, labels, training, output), f)
 
-    tf.compat.v1.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 
-    net = tflearn.input_data(shape=[None, len(training[0])])
-    net = tflearn.fully_connected(net, 8)
-    net = tflearn.fully_connected(net, 8)
-    net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
-    net = tflearn.regression(net)
+net = tflearn.input_data(shape=[None, len(training[0])])
+net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
+net = tflearn.regression(net)
 
-    model = tflearn.DNN(net)
+model = tflearn.DNN(net)
 
-# try:
-model.load("model.tflearn_de")
-# except:
-#     model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
-#     model.save("model.tflearn_de")
+try:
+    model.load("model.tflearn_de")
+except:
+    model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
+    model.save("model.tflearn_de")
 
 
 def bag_of_words(s, words):

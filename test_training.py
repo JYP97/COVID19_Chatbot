@@ -14,7 +14,7 @@ with open("dataset/QA_en.json", encoding='utf-8') as file:
     dialogs = json.load(file)
 
 try:
-    with open("data.pickle", "rb") as f:
+    with open("data_en.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
     words = []
@@ -59,7 +59,7 @@ except:
     training = np.array(training)
     output = np.array(output)
 
-    with open("data.pickle", "wb") as f:
+    with open("data_en.pickle", "wb") as f:
         pickle.dump((words, labels, training, output), f)
 
 tf.compat.v1.reset_default_graph()
