@@ -1,8 +1,13 @@
 import nltk
 import numpy as np
-from nltk.stem.lancaster import LancasterStemmer
+# from nltk.stem.lancaster import LancasterStemmer
+# from nltk.stem.snowball import GermanStemmer
+from nltk.stem import SnowballStemmer
+import spacy
 
-stemmer = LancasterStemmer()
+nlp = spacy.load('de_core_news_sm')
+# stemmer = LancasterStemmer()
+st = SnowballStemmer("german")
 import tflearn
 import tensorflow as tf
 import random
@@ -10,11 +15,11 @@ import pickle
 import json
 
 
-with open("dataset/QA_en.json", encoding='utf-8') as file:
+with open("dataset/QA_de.json", encoding='utf-8') as file:
     dialogs = json.load(file)
 
 try:
-    with open("data.pickle", "rb") as f:
+    with open("data_de.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
     words = []
@@ -24,7 +29,7 @@ except:
 
     for intent in dialogs["intents"]:
         for pattern in intent["patterns"]:
-            wrds = nltk.word_tokenize(pattern)
+            wrds = nlp.tokenizer(pattern)
             words.extend(wrds)
             docs_x.append(wrds)
             docs_y.append(intent["tag"])
@@ -32,7 +37,7 @@ except:
         if intent["tag"] not in labels:
             labels.append(intent["tag"])
 
-    words = [stemmer.stem(w.lower()) for w in words if w != "?"]
+    words = [st.stem(w.text.lower()) for w in words if w.text != "?"]
     words = sorted(list(set(words)))
 
     labels = sorted(labels)
@@ -44,7 +49,7 @@ except:
 
     for x, doc in enumerate(docs_x):
         bag = []
-        wrds = [stemmer.stem(w) for w in doc]
+        wrds = [st.stem(w.text) for w in doc]
         for w in words:
             if w in wrds:
                 bag.append(1)
@@ -59,30 +64,30 @@ except:
     training = np.array(training)
     output = np.array(output)
 
-    with open("data.pickle", "wb") as f:
+    with open("data_de.pickle", "wb") as f:
         pickle.dump((words, labels, training, output), f)
 
-tf.compat.v1.reset_default_graph()
+    tf.compat.v1.reset_default_graph()
 
-net = tflearn.input_data(shape=[None, len(training[0])])
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
-net = tflearn.regression(net)
+    net = tflearn.input_data(shape=[None, len(training[0])])
+    net = tflearn.fully_connected(net, 8)
+    net = tflearn.fully_connected(net, 8)
+    net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
+    net = tflearn.regression(net)
 
-model = tflearn.DNN(net)
+    model = tflearn.DNN(net)
 
-try:
-    model.load("model.tflearn_en")
-except:
-    model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
-    model.save("model.tflearn_en")
+# try:
+model.load("model.tflearn_de")
+# except:
+#     model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
+#     model.save("model.tflearn_de")
 
 
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
-    s_words = nltk.word_tokenize(s)
-    s_words = [stemmer.stem(word.lower()) for word in s_words]
+    s_words = nlp.tokenizer(s)
+    s_words = [st.stem(word.text.lower()) for word in s_words]
 
     for se in s_words:
         for i, w in enumerate(words):
