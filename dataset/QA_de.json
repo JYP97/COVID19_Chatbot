@@ -3,159 +3,159 @@
     {
       "tag": "protection",
       "patterns": [
-        "How to avoid getting infected?",
-        "How can I protect myself?",
-        "Is there any suggestions for people during COVID?",
-        "What should be done to prevent COVID?",
-        "How can I protect my child from COVID-19 infection?",
-        "How do I prepare my children in case of COVID-19 outbreak in our community?",
-        "How can I help protect myself?",
-        "What steps should parents take to protect children?",
-        "How can my family and I prepare for COVID-19?",
-        "What steps can my family take to reduce our risk of getting COVID-19?",
-        "How can I keep my family healthy?",
-        "What can I do to protect myself and prevent the spread of disease?",
-        "How can I protect myself from the spread of disease?",
-        "how can I avoid infection of COVID-19?"
+        "Wie kann man eine Ansteckung vermeiden?",
+        "Wie kann ich mich schützen?",
+        "Gibt es einige Vorschläge für Leute während der COVID?",
+        "Was sollte man tun, um COVID zu verhindern?",
+        "Wie kann ich mein Kind vor einer COVID-19 Infektion schützen?",
+        "Wie bereite ich meine Kinder auf den Ausbruch von COVID-19 in unserer Gemeinde vor?",
+        "Wie kann ich helfen, mich zu schützen?",
+        "Welche Maßnahmen sollten Eltern ergreifen, um ihre Kinder zu schützen?",
+        "Wie können meine Familie und ich uns auf COVID-19 vorbereiten?",
+        "Welche Maßnahmen kann meine Familie ergreifen, um das Risiko einer Ansteckung mit COVID-19 zu verringern?",
+        "Wie kann ich meine Familie gesund erhalten?",
+        "Was kann ich tun, um mich zu schützen und die Verbreitung von Krankheiten zu verhindern?",
+        "Wie kann ich mich vor der Verbreitung von Krankheiten schützen?",
+        "Wie kann ich eine Infektion mit COVID-19 vermeiden?"
       ],
       "response": [
-        "The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, but plz also wear musk when you out.",
-        "Maintain a distance of at least 1 meter from people who are coughing or sneezing.",
-        "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water.",
-        "Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.",
-        "Disposable medical face masks are intended for a single use only. After use they should be removed using appropriate techniques.",
-        "The following measures are not effective against COVID-2019: Smoking, Wearing multiple masksTaking antibiotics. You should maintain a distance of at least 1 meter from people who are coughing or sneezing.",
-        "Masks are an important method to protect. If you or your family members have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection.",
-        "Masks are an important part of containing 2019-nCoV spread between people, along with other PPE and hand hygiene."
+        "Die wirksamsten Maßnahmen, um sich und andere vor COVID-19 zu schützen, sind häufiges Händewaschen und das Tragen von Moschus, wenn Sie ausgehen.",
+        "Halten Sie einen Abstand von mindestens 1 Meter zu hustenden oder niesenden Personen ein.",
+        "Bevor Sie die Maske berühren, reinigen Sie Ihre Hände mit einer alkoholhaltigen Handcreme oder mit Wasser und Seife.",
+        "Verwenden Sie alkoholhaltige Handreinigungsmittel oder waschen Sie Ihre Hände bei sichtbarer Verschmutzung mit Wasser und Seife.",
+        "Medizinische Einweggesichtsmasken sind nur für den einmaligen Gebrauch bestimmt. Nach dem Gebrauch sollten sie mit geeigneten Techniken entfernt werden.",
+        "Die folgenden Maßnahmen sind gegen COVID-2019 nicht wirksam: Rauchen, Tragen mehrerer MaskenEinnahme von Antibiotika. Sie sollten einen Abstand von mindestens 1 Meter zu hustenden oder niesenden Personen einhalten.",
+        "Masken sind ein wichtiges Mittel zum Schutz. Wenn Sie oder Ihre Familienmitglieder Fieber, Husten und Atembeschwerden haben, suchen Sie frühzeitig einen Arzt auf, um das Risiko einer schwereren Infektion zu verringern.",
+        "Masken sind ein wichtiger Bestandteil der Eindämmung der Ausbreitung von 2019-nCoV zwischen Menschen, zusammen mit anderen PSA und Handhygiene."
       ]
     },
     {
       "tag": "Animals",
       "patterns": [
-        "Can humans become infected with the COVID-19 from an animal source?",
-        "Can I catch COVID-19 from my pet?"
+        "Können sich Menschen mit COVID-19 aus einer tierischen Quelle infizieren?",
+        "Kann ich mich bei meinem Haustier mit COVID-19 anstecken?"
       ],
       "response": [
-        "Possible animal sources of COVID-19 have not yet been confirmed.",
-        "It is still too early to say whether animals could be theintermediate host in the transmission of the COVID-19."
+        "Mögliche tierische Quellen von COVID-19 sind noch nicht bestätigt worden.",
+        "Es ist noch zu früh, um zu sagen, ob Tiere der Zwischenwirt bei der Übertragung von COVID-19 sein könnten."
       ]
     },
     {
       "tag": "gathering",
       "patterns": [
-        "Where can I find advice on health risks around mass gatherings?",
-        "what can we do to reduce the risk of participants catching COVID-19, if we go ahead with a mass gathering?"
+       "Wo kann ich Ratschläge zu Gesundheitsrisiken bei Massenveranstaltungen finden?",
+        "Was können wir tun, um das Risiko einer Ansteckung der Teilnehmer mit COVID-19 zu verringern, wenn wir eine Massenveranstaltung veranstalten?"
       ],
       "response": [
-        "Promote hand washing, respiratory hygiene and social distancing at the event.",
-        "You should consider whether the number of participants at the event could be reduced, making available participation by video or teleconference.",
-        "Possibly screening participants for COVID-19 symptoms at points of entry to the venue.",
-        "You need to consider the location and duration of the event as well as the number of participants.",
-        "All countries should seriously consider postponing or reducing mass gatherings that bring people together and have the potential to amplify disease and support the recommended best practice of physical distancing."
+        "Förderung des Händewaschens, der Atemwegshygiene und der sozialen Distanzierung bei der Veranstaltung.",
+        "Sie sollten überlegen, ob die Zahl der Teilnehmer an der Veranstaltung reduziert werden kann, indem die Teilnahme per Video- oder Telefonkonferenz ermöglicht wird.",
+        "Eventuell Screening der Teilnehmer auf COVID-19-Symptome an den Eintrittspunkten zum Veranstaltungsort.",
+        "Sie müssen den Ort und die Dauer der Veranstaltung sowie die Anzahl der Teilnehmer berücksichtigen.",
+        "Alle Länder sollten ernsthaft in Erwägung ziehen, Massenveranstaltungen, bei denen Menschen zusammenkommen und die das Potenzial haben, Krankheiten zu verstärken, zu verschieben oder zu reduzieren, und die empfohlene bewährte Praxis der räumlichen Distanzierung unterstützen."
       ]
     },
     {
       "tag": "source",
       "patterns": [
-        "Whats the source of COVID-19?",
-        "Is the source of the coronavirus causing COVID-19 known?",
+        "Was ist die Quelle von COVID-19?",
+        "Ist die Quelle des Coronavirus, das COVID-19 verursacht, bekannt?",
         "Was ist die Quelle des Virus?"
       ],
       "response": [
-        "The virus that causes COVID-19 and the one that caused the outbreak of SARS are related to each other genetically.",
-        "Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown.",
-        "All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus.",
-        "SARS-CoV-2 virus most probably has its ecological reservoir in bats."
+        "Das Virus, das COVID-19 verursacht, und das Virus, das den Ausbruch von SARS verursachte, sind genetisch miteinander verwandt.",
+        "Derzeit ist die Quelle von SARS-CoV-2, dem Coronavirus (CoV), das COVID-19 verursacht, unbekannt.",
+        "Alle verfügbaren Erkenntnisse deuten darauf hin, dass SARS-CoV-2 einen natürlichen tierischen Ursprung hat und kein konstruiertes Virus ist.",
+        "Das SARS-CoV-2-Virus hat sein ökologisches Reservoir höchstwahrscheinlich in Fledermäusen."
       ]
     },
     {
       "tag": "incubation",
       "patterns": [
-        "How long is the incubation period for COVID-19?",
-        "How long does the virus survive on surfaces?",
-        "Is it safe to receive a package from any area where COVID-19 has been reported?"
+        "Wie lange ist die Inkubationszeit für COVID-19?",
+        "Wie lange kann das Virus auf Oberflächen überleben?",
+        "Ist es sicher, ein Paket aus einem Gebiet zu erhalten, in dem COVID-19 gemeldet wurde?"
       ],
       "response": [
-        "Most estimates of the incubation period for COVID-19 is two week, most commonly around five days. The likelihood of an infected person contaminating commercial goods is low",
-        "Studies suggest that coronaviruses may persist on surfaces for a few hours or up to several days.",
-        "This may vary under different conditions.",
-        "There is currently no data available on stability of 2019-nCoV on surfaces.",
-        "WHO continues to monitor existing evidence around nCoV and will update when such evidence is available."
+        "Die meisten Schätzungen der Inkubationszeit für COVID-19 liegen bei zwei Wochen, in der Regel bei fünf Tagen. Die Wahrscheinlichkeit, dass eine infizierte Person Handelswaren kontaminiert, ist gering.",
+        "Studien haben gezeigt, dass Coronaviren stunden bis tagelang auf Oberflächen überleben können.",
+        "Dies kann unter verschiedenen Bedingungen variieren.",
+        "Derzeit gibt es keine Daten zur Stabilität von 2019-nCoV auf Oberflächen.",
+        "Die WHO beobachtet weiterhin die vorhandenen Erkenntnisse über nCoV und wird diese aktualisieren, sobald sie vorliegen."
       ]
     },
     {
       "tag": "cleaning",
       "patterns": [
-        "How to clean soiled clothing from patients with COVID-19?",
-        "What is the best way to clean soiled linen?",
-        "What should be used to clean soiled linen?",
-        "What is recommended for washing and disinfecting thing?",
-        "What are the disinfectants recommended for cleaning?"
+        "Wie reinigt man verschmutzte Kleidung von Patienten mit COVID-19?",
+        "Wie kann man verschmutzte Wäsche am besten reinigen?",
+        "Wie soll ich meine schmutzige Wäsche waschen?",
+        "Was wird zum Waschen und Desinfizieren von Gegenständen empfohlen?",
+        "Welche Desinfektionsmittel werden für die Reinigung empfohlen?"
       ],
       "response": [
-        "Washing by machine with warm water and laundry detergent is recommended for cleaning and disinfection of linens.",
-        "Linen can be soaked in hot water and soap in a large drum, using a stick to stir, avoiding splashing",
-        "Soak linen in 0.05% chlorine for approximately 30 minutes.",
-        "Rinse with clean water and let linen dry fully in the sunlight.",
-        "There are many disinfectants, including commonly used hospital disinfectants, that are active against enveloped viruses.",
-        "Environmental cleaning should use disinfectants that are active against enveloped viruses."
+        "Zur Reinigung und Desinfektion der Wäsche wird die Maschinenwäsche mit warmem Wasser und Waschmittel empfohlen.",
+        "Leinen kann in einer großen Trommel in heißem Wasser und Seife eingeweicht werden, wobei ein Stock zum Umrühren verwendet wird, um Spritzer zu vermeiden.",
+        "Weichen Sie die Wäsche etwa 30 Minuten lang in 0,05%igem Chlor ein.",
+        "Mit klarem Wasser ausspülen und die Wäsche an der Sonne vollständig trocknen lassen.",
+        "Es gibt viele Desinfektionsmittel, einschließlich der häufig verwendeten Krankenhausdesinfektionsmittel, die gegen behüllte Viren wirksam sind.",
+        "Bei der Umgebungsreinigung sollten Desinfektionsmittel verwendet werden, die gegen behüllte Viren wirksam sind."
       ]
     },
     {
       "tag": "treatment",
       "patterns": [
-        "Is there a vaccine, drug or treatment for COVID-19?"
+        "Gibt es einen Impfstoff, ein Medikament oder eine Behandlung für COVID-19?"
       ],
       "response": [
-        "There is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019 yet.",
-        "Most patients recover thanks to supportive care.",
-        "WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19."
+       "Bisher gibt es weder einen Impfstoff noch ein spezifisches antivirales Medikament zur Vorbeugung oder Behandlung von COVID-2019.",
+        "Die meisten Patienten erholen sich dank der unterstützenden Pflege.",
+        "Die WHO koordiniert die Bemühungen zur Entwicklung von Impfstoffen und Medikamenten zur Vorbeugung und Behandlung von COVID-19."
       ]
     },
     {
       "tag": "patient",
       "patterns": [
-        "Do patients with suspected or confirmed need to be hospitalized if they have mild illness?",
-        "What is the best way to treat illness?",
-        "what should i do when i was confirmed?"
+        "Müssen Patienten mit Verdacht oder Bestätigung einer leichten Erkrankung ins Krankenhaus eingewiesen werden?",
+        "Wie kann man die Krankheit am besten behandeln?",
+        "Was sollte ich nach der Diagnose tun?"
       ],
       "response": [
-        "For patients who have mild illness, hospitalization may not be required unless there is concern for rapid clinical deterioration.",
-        "Ideally, suspected and confirmed 2019-nCoV acure respiratory disease patients should be isolated in single rooms."
+        "Bei Patienten mit leichteren Erkrankungen ist ein Krankenhausaufenthalt möglicherweise nicht erforderlich, es sei denn, es besteht die Gefahr einer raschen klinischen Verschlechterung.",
+        "Im Idealfall sollten Patienten mit Verdacht auf eine 2019-nCoV-acure Atemwegserkrankung in Einzelzimmern isoliert werden."
       ]
     },
     {
       "tag": "transmisson",
       "patterns": [
-        "How the new coronavirus spreads?",
-        "How does the virus spread?",
-        "How does COVID-19 spread?",
-        "Am I at risk for COVID-19 from a package or products?",
-        "Can mosquitoes or ticks spread the virus that causes COVID-19?",
-        "Can someone who has had COVID-19 spread the illness to others?",
-        "Can coronavirus be spread through food?",
-        "Can I get sick with COVID-19 if it is on food?"
+        "Wie verbreitet sich das neue Coronavirus?",
+        "Wie verbreitet sich das Virus?",
+        "Wie wird COVID-19 verbreitet?",
+        "Besteht bei mir ein Risiko für COVID-19 durch eine Verpackung oder ein Produkt?",
+        "Können Stechmücken oder Zecken das Virus, das COVID-19 verursacht, übertragen?",
+        "Kann jemand, der an COVID-19 erkrankt ist, die Krankheit auf andere übertragen?",
+        "Kann das Coronavirus über Lebensmittel verbreitet werden?",
+        "Werde ich krank, wenn sich das COVID-19-Virus auf meinem Essen befindet?"
       ],
       "response": [
-        "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks.",
-        "This evidence demonstrates viral transmission by droplets and contact with contaminated surfaces of equipment.",
-        "The virus that causes COVID-19 spreads from person to person. People are thought to be most contagious when symptomatic (the sickest). ",
-        "The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. ",
-        "Coronaviruses are generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with food, ticks, or other things. ",
-        "Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food, mosquitoes, or other things but through people.",
-        "At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by food, mosquitoes, or other things. The main way that COVID-19 spreads are from person to person. ",
-        "This coronavirus is thought to be spread most often by respiratory droplets. Currently, there is no evidence to support the transmission of COVID-19 associated with imported goods or other things."
+         "Das Virus, das COVID-19 verursacht, wird hauptsächlich durch Tröpfchen übertragen, die entstehen, wenn eine infizierte Person hustet, niest oder spricht.",
+        "Diese Beweise zeigen, dass das Virus durch Tröpfchen und Kontakt mit kontaminierten Oberflächen von Geräten übertragen wird.",
+        "Das Virus, das COVID-19 verursacht, wird von Mensch zu Mensch übertragen. Man geht davon aus, dass Menschen am ansteckendsten sind, wenn sie Symptome haben (am kränksten sind). ",
+        "Es wird angenommen, dass das Virus, das COVID-19 verursacht, hauptsächlich von Mensch zu Mensch übertragen wird, vor allem durch Tröpfchen in der Atemluft, die entstehen, wenn eine infizierte Person hustet oder niest. ",
+        "Es wird allgemein angenommen, dass Coronaviren durch Tröpfcheninfektion von Mensch zu Mensch übertragen werden. Derzeit gibt es keine Anhaltspunkte für eine Übertragung von COVID-19 durch Lebensmittel, Zecken oder andere Dinge. ",
+        "Nach den bisherigen Informationen über dieses neuartige Coronavirus scheint es unwahrscheinlich, dass COVID-19 durch Lebensmittel, Mücken oder andere Dinge, sondern durch Menschen übertragen werden kann.",
+        "Derzeit liegen der CDC keine Daten vor, die darauf hindeuten, dass dieses neue Coronavirus oder andere ähnliche Coronaviren durch Lebensmittel, Stechmücken oder andere Dinge verbreitet werden. COVID-19 wird hauptsächlich von Mensch zu Mensch übertragen. ",
+        "Es wird angenommen, dass dieses Coronavirus am häufigsten durch Tröpfcheninfektion der Atemwege verbreitet wird. Derzeit gibt es keine Beweise für eine Übertragung von COVID-19 durch importierte Waren oder andere Dinge."
       ]
     },
     {
       "tag": "mask",
       "patterns": [
-        "Should I wear a mask to protect myself?",
-        "Should children wear masks?",
-        "Does CDC recommend the use of facemask?"
+        "Sollte ich eine Maske tragen, um mich zu schützen?",
+        "Sollten Kinder Masken tragen?",
+        "Empfiehlt die CDC die Verwendung eines Mundschutzes?"
       ],
       "response": [
-        "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. "
+        "Die CDC empfiehlt, dass alle Personen ab 2 Jahren einen Gesichtsschutz aus Stoff tragen, der Nase und Mund bedeckt, wenn sie sich in der Öffentlichkeit aufhalten."
       ]
     },
     {
@@ -282,35 +282,35 @@
     {
       "tag": "symptoms of COVID-19",
       "patterns": [
-        "What are the symptoms of COVID-19?",
-        "What are the symptoms and complications that COVID-19 can cause?"
+        "Was sind die Symptome von COVID-19?",
+        "Welche Symptome und Komplikationen kann COVID-19 verursachen?"
       ],
       "response": [
-        "The most common symptoms of COVID-19 are fever, tiredness, and dry cough.",
-        "Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.",
-        "Some people become infected but don’t develop any symptoms and don't feel unwell.",
-        "Current symptoms reported for patients with COVID-19 have included mild to severe respiratory illness with fever1, cough, and difficulty breathing."
+        "Die häufigsten Symptome von COVID-19 sind Fieber, Müdigkeit und trockener Husten.",
+        "Einige Patienten können unter Schmerzen, verstopfter Nase, laufender Nase, Halsschmerzen oder Durchfall leiden.",
+        "Manche Menschen infizieren sich, entwickeln aber keine Symptome und fühlen sich nicht unwohl.",
+        "Zu den aktuellen Symptomen, die bei Patienten mit COVID-19 gemeldet wurden, gehörten leichte bis schwere Atemwegserkrankungen mit Fieber1, Husten und Atembeschwerden."
       ]
     },
     {
       "tag": "import of animals",
       "patterns": [
-        "What about imported animals or animal products?",
-        "Can I travel with dogs or import dogs during the COVID-19 outbreak?"
+        "Was ist mit importierten Tieren oder tierischen Produkten?",
+        "Kann ich während des COVID-19-Ausbruchs mit Hunden reisen oder Hunde importieren?"
       ],
       "response": [
-        "Please refer to CDC’s requirements for bringing animals. The current requirements for rabies vaccination apply to animals imported from a high-risk country for rabies."
+        "Bitte beachten Sie die Anforderungen der CDC für das Mitbringen von Tieren. Für Tiere, die aus einem Hochrisikoland für Tollwut importiert werden, gelten die aktuellen Anforderungen an die Tollwutimpfung."
       ]
     },
     {
       "tag": "risk of infection contacting with dead people",
       "patterns": [
-        "Am I at risk if I go to a funeral or visitation service for someone who died of COVID-19?",
-        "Am I at risk if I touch someone who died of COVID-19 after they have passed away?"
+        "Bin ich gefährdet, wenn ich zu einer Beerdigung oder einem Besuchsdienst für jemanden gehe, der an COVID-19 gestorben ist?",
+        "Bin ich gefährdet, wenn ich jemanden berühre, der an COVID-19 gestorben ist, nachdem er verstorben ist?"
       ],
       "response": [
-        "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19.",
-        "COVID-19 is a new disease and we are still learning how it spreads. The virus that causes COVID-19 is thought to mainly spread from close contact with a person who is currently sick with COVID-19. This type of spread is not a concern after death."
+       "Es ist derzeit kein bekanntes Risiko damit verbunden, bei einer Beerdigung oder einem Besuchsdienst mit der Leiche einer an COVID-19 verstorbenen Person im selben Raum zu sein.",
+        "COVID-19 ist eine neue Krankheit und wir lernen immer noch, wie sie sich ausbreitet. Es wird angenommen, dass sich das Virus, das COVID-19 verursacht, hauptsächlich durch engen Kontakt mit einer Person verbreitet, die derzeit an COVID-19 erkrankt ist. Diese Art der Ausbreitung ist nach dem Tod kein Problem."
       ]
     },
     {
